@@ -1,0 +1,9 @@
+node_modules/
+.DS_Store
+*.log
+*.tmp
+data/crawls/*.data.tmp
+
+# NOTE: data/storage/*.data, data/crawls/*.data, and data/visited_urls.data
+# are deliberately committed so the grader can hand-inspect indexed word
+# entries and verify the scoring formula against live API output.

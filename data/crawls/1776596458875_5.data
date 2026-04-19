@@ -1,0 +1,35 @@
+{
+  "crawlerId": "1776596458875_5",
+  "origin": "https://en.wikipedia.org/wiki/PageRank",
+  "k": 0,
+  "opts": {
+    "maxConcurrency": 1,
+    "rateLimit": 5,
+    "maxQueue": 500,
+    "maxPages": 1,
+    "userAgent": "MultiAgentCrawler/1.0 (+https://github.com/volkanersever)"
+  },
+  "status": "finished",
+  "startedAt": 1776596458876,
+  "endedAt": 1776596459980,
+  "stats": {
+    "pagesCrawled": 1,
+    "urlsSeen": 1,
+    "errors": 0,
+    "wordsIndexed": 2195,
+    "lastUrl": "https://en.wikipedia.org/wiki/PageRank"
+  },
+  "frontier": [],
+  "log": [
+    {
+      "ts": 1776596458877,
+      "level": "info",
+      "msg": "crawl started origin=https://en.wikipedia.org/wiki/PageRank k=0"
+    },
+    {
+      "ts": 1776596459980,
+      "level": "info",
+      "msg": "crawl finished pages=1 errors=0"
+    }
+  ]
+}

@@ -1,0 +1,16 @@
+{
+  "name": "google-in-one-day-multi-agent-crawler",
+  "version": "1.0.0",
+  "description": "Multi-agent built web crawler + search system (Node stdlib only).",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=22"
+  },
+  "scripts": {
+    "start": "node src/server.js",
+    "cli": "node src/cli.js"
+  },
+  "author": "volkanersever",
+  "license": "MIT"
+}

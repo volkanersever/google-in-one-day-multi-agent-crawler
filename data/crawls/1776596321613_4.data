@@ -1,0 +1,2241 @@
+{
+  "crawlerId": "1776596321613_4",
+  "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+  "k": 1,
+  "opts": {
+    "maxConcurrency": 2,
+    "rateLimit": 3,
+    "maxQueue": 500,
+    "maxPages": 8,
+    "userAgent": "MultiAgentCrawler/1.0 (+https://github.com/volkanersever)"
+  },
+  "status": "finished",
+  "startedAt": 1776596321613,
+  "endedAt": 1776596328379,
+  "stats": {
+    "pagesCrawled": 8,
+    "urlsSeen": 449,
+    "errors": 1,
+    "wordsIndexed": 5770,
+    "lastUrl": "https://da.wikipedia.org/wiki/Informationss%C3%B8gning"
+  },
+  "frontier": [
+    {
+      "url": "https://de.wikipedia.org/wiki/Information_Retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://el.wikipedia.org/wiki/%CE%91%CE%BD%CE%AC%CE%BA%CF%84%CE%B7%CF%83%CE%B7_%CF%80%CE%BB%CE%B7%CF%81%CE%BF%CF%86%CE%BF%CF%81%CE%B9%CF%8E%CE%BD",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://eo.wikipedia.org/wiki/Informo-rehavigo",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/B%C3%BAsqueda_y_recuperaci%C3%B3n_de_informaci%C3%B3n",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://et.wikipedia.org/wiki/Infootsing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://eu.wikipedia.org/wiki/Informazioaren_berreskurapen",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://fa.wikipedia.org/wiki/%D8%A8%D8%A7%D8%B2%DB%8C%D8%A7%D8%A8%DB%8C_%D8%A7%D8%B7%D9%84%D8%A7%D8%B9%D8%A7%D8%AA",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://fi.wikipedia.org/wiki/Tiedonhaku",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Recherche_d%27information",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://ga.wikipedia.org/wiki/Aisghabh%C3%A1il_faisn%C3%A9ise",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://gl.wikipedia.org/wiki/Recuperaci%C3%B3n_de_informaci%C3%B3n",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://hi.wikipedia.org/wiki/%E0%A4%B8%E0%A5%82%E0%A4%9A%E0%A4%A8%E0%A4%BE_%E0%A4%AA%E0%A5%81%E0%A4%A8%E0%A4%B0%E0%A5%8D%E0%A4%AA%E0%A5%8D%E0%A4%B0%E0%A4%BE%E0%A4%AA%E0%A5%8D%E0%A4%A4%E0%A4%BF",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://id.wikipedia.org/wiki/Temu_balik_informasi",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E6%83%85%E5%A0%B1%E6%A4%9C%E7%B4%A2",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://ko.wikipedia.org/wiki/%EC%A0%95%EB%B3%B4_%EA%B2%80%EC%83%89",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://mn.wikipedia.org/wiki/%D0%9C%D1%8D%D0%B4%D1%8D%D1%8D%D0%BB%D0%BB%D0%B8%D0%B9%D0%BD_%D1%85%D0%B0%D0%B9%D0%BB%D1%82",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://ms.wikipedia.org/wiki/Dapatan_kembali_maklumat",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://nl.wikipedia.org/wiki/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://nn.wikipedia.org/wiki/Informasjonsattfinning",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://no.wikipedia.org/wiki/Informasjonsgjenfinning",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Wyszukiwanie_informacji",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Recupera%C3%A7%C3%A3o_de_informa%C3%A7%C3%A3o",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://ru.wikipedia.org/wiki/%D0%98%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D0%B8%D0%BE%D0%BD%D0%BD%D1%8B%D0%B9_%D0%BF%D0%BE%D0%B8%D1%81%D0%BA",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/Pretra%C5%BEivanje_informacija",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://sv.wikipedia.org/wiki/Informationss%C3%B6kning",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://ta.wikipedia.org/wiki/%E0%AE%A4%E0%AF%86%E0%AE%B0%E0%AE%BF%E0%AE%9A%E0%AF%86%E0%AE%AF%E0%AF%8D%E0%AE%A4%E0%AE%BF_%E0%AE%AE%E0%AF%80%E0%AE%9F%E0%AF%8D%E0%AE%AA%E0%AF%81",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://tg.wikipedia.org/wiki/%D2%B6%D1%83%D1%81%D1%82%D1%83%D2%B7%D3%AF%D0%B8_%D0%B8%D1%82%D1%82%D0%B8%D0%BB%D0%BE%D0%BE%D1%82%D3%A3",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://tr.wikipedia.org/wiki/Bilgi_eri%C5%9Fim",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://uk.wikipedia.org/wiki/%D0%86%D0%BD%D1%84%D0%BE%D1%80%D0%BC%D0%B0%D1%86%D1%96%D0%B9%D0%BD%D0%B8%D0%B9_%D0%BF%D0%BE%D1%88%D1%83%D0%BA",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://vi.wikipedia.org/wiki/Truy_h%E1%BB%93i_th%C3%B4ng_tin",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://zh-yue.wikipedia.org/wiki/%E8%B3%87%E8%A8%8A%E6%8F%90%E5%8F%96",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E4%BF%A1%E6%81%AF%E6%AA%A2%E7%B4%A2",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q816826",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Talk:Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=history",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:WhatLinksHere/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&oldid=1347399366",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=info",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Information_retrieval&id=1347399366&wpFormIdentifier=titleform",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FInformation_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=Information_retrieval&action=show-download-screen",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&printable=yes",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://commons.wikimedia.org/wiki/Category:Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikiquote.org/wiki/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/File:Question_book-new.svg",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Verifiability",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:EditPage/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:Referencing_for_beginners",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.google.com/search?as_eq=wikipedia&q=%22Information+retrieval%22",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.google.com/search?tbm=nws&q=%22Information+retrieval%22+-wikipedia&tbs=ar:1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.google.com/search?&q=%22Information+retrieval%22&tbs=bkt:s&tbm=bks",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.google.com/search?tbs=bks:1&q=%22Information+retrieval%22+-wikipedia",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://scholar.google.com/scholar?q=%22Information+retrieval%22",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.jstor.org/action/doBasicSearch?Query=%22Information+retrieval%22&acc=on&wc=on",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:Maintenance_template_removal",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Outline_of_information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_access",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_architecture",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_behavior",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_management",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_seeking",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_society",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Knowledge_organization",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ontology_(information_science)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Philosophy_of_information",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Science_and_technology_studies",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Taxonomy",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Academic_freedom",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bibliometrics",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Categorization",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Censorship",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Library_classification",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Computer_data_storage",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cultural_studies",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Data_modeling",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Freedom_of_information",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Freedom_of_the_press",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Informatics",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_ethics",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_technology",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_wants_to_be_free",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Intellectual_freedom",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Intellectual_property",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Internet_freedom",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Internet_privacy",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Library_and_information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Memory",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Preservation_(library_and_archival_science)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Privacy",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Right_to_privacy",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Right_to_know",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Quantum_information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template_talk:Information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:EditPage/Template:Information_science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Computing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_system",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_needs",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Full-text_search",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Science",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Metadata",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Database",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cross-modal_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_overload",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Relevance_(information_retrieval)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ranking_(information_retrieval)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_retrieval_applications",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mind_maps",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=2",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/As_We_May_Think",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vannevar_Bush",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Emanuel_Goldberg",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Univac",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Desk_Set",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gerard_Salton",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Text_corpora",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Institute_of_Standards_and_Technology",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Text_Retrieval_Conference",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scalability",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AltaVista",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yahoo!_Inc._(1995%E2%80%932017)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PageRank",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Microsoft",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Bing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Semantic_Web",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BERT_(language_model)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Word_embedding",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Precision_and_recall",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=3",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=4",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Digital_libraries",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_filtering",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Recommender_systems",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Image_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/3D_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Music_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Video_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engines",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Site_search&action=edit&redlink=1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Desktop_search",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enterprise_search",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Federated_search",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Mobile_search&action=edit&redlink=1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Social_search",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=5",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Geographic_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Software_engineering",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Legal_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vertical_search",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=6",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Adversarial_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Automatic_summarization",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Multi-document_summarization",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Compound_term_processing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cross-language_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Document_classification",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spam_filtering",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Question_answering",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=7",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/File:Information-Retrieval-Models.png",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://de.wikipedia.org/wiki/Informationsr%C3%BCckgewinnung",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://www.logos-verlag.de/cgi-bin/engbuchmid?isbn=0514&lng=eng&id=",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=8",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Set_(mathematics)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Standard_Boolean_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Extended_Boolean_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fuzzy_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vector_space_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Generalized_vector_space_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Topic-based_vector_space_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Latent_semantic_indexing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Latent_semantic_analysis",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bayes%27_theorem",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Binary_Independence_Model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Probabilistic_relevance_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Probabilistic_relevance_model_(BM25)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Uncertain_inference",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Language_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Divergence-from-randomness_model",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Latent_Dirichlet_allocation",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Learning_to_rank",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=9",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Orthogonality",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Independence_(mathematical_logic)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Dimension_reduction",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Co-occurrence",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=10",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=11",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Please_clarify",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ground_truth",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ill-posed",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=12",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lemur_Project",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apache_Lucene",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apache_Solr",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elasticsearch",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sketch_Engine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sphinx_(search_engine)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Terrier_Search_Engine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Xapian",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=13",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Joseph_Marie_Jacquard",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Jacquard_loom",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Herman_Hollerith",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Punched_cards",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Keypunch",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tabulating_machine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/1890_US_census",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Atlantic_Monthly",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hans_Peter_Luhn",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Allen_Kent",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Citation_index",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Eugene_Garfield",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Calvin_Mooers",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MIT",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Case_Western_Reserve_University",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Melvin_Earl_Maron",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cyril_W._Cleverdon",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alvin_Weinberg",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robert_M._Hayes_(information_scientist)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Computational_linguistics",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Bureau_of_Standards",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SMART_Information_Retrieval_System",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Library_of_Medicine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MEDLARS",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/J._C._R._Licklider",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Don_Swanson",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/F._Wilfrid_Lancaster",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://studentnet.cs.manchester.ac.uk/pgt/COMP61021/reference/Sammon.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20170808172524/http:/studentnet.cs.manchester.ac.uk/pgt/COMP61021/reference/Sammon.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wayback_Machine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Theodor_Nelson",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hypertext",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicholas_Jardine",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cornelis_J._van_Rijsbergen",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Hierarchic_clustering&action=edit&redlink=1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Term_Discrimination",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/JASIS",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Communications_of_the_ACM",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Association_for_Computing_Machinery",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special_Interest_Group_on_Information_Retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Natural_language_user_interface",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nicholas_J._Belkin",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bill_Maron",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Donald_A.B._Lindberg",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grateful_Med",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grateful_Dead",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Donald_B._Crouch&action=edit&redlink=1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robert_R._Korfhage",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tim_Berners-Lee",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CERN",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Larry_Page",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sergey_Brin",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ricardo_Baeza-Yates",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SPLADE",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=14",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/European_Conference_on_Information_Retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/International_World_Wide_Web_Conference",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=15",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tony_Kent_Strix_award",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gerard_Salton_Award",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Karen_Sp%C3%A4rck_Jones_Award",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=16",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Computer_memory",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Controlled_vocabulary",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Data_mining",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Data_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Human%E2%80%93computer_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_extraction",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Collaborative_information_seeking",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Social_information_seeking",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Information_Retrieval_Facility",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Knowledge_visualization",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Multimedia_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Personal_information_management",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Pearl_growing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Query_understanding",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Relevance_feedback",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Retrievability",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Nearest_centroid_classifier",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engine_indexing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Subject_indexing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Temporal_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Tf%E2%80%93idf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/XML_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_mining",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=17",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1007%2Fs10699-020-09685-x",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hdl_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://hdl.handle.net/10397%2F94873",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/S2CID_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:220506422",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://www.bernardjjansen.com/uploads/2/4/1/8/24188166/jansen_theoretical_constructs.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2Fasi.21358",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://inform.nu/Articles/Vol3/v3n2p63-66.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.28945%2F578",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CiteSeerX_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.39.6339",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1007%2Fs005300050106",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:2000641",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://fossies.org/linux/docear/docear_plugin_core/resources/demo/docear_example_pdfs/Information%20Retrieval%20on%20Mind%20Maps%20--%20What%20could%20it%20be%20good%20for.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.4108%2FICST.COLLABORATECOM2009.8298",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-963-9799-76-9",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20130928060217/http:/www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-13-463837-9",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.scribd.com/doc/13742235/Information-Retrieval-Data-Structures-Algorithms-William-B-Frakes",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://singhal.info/ieee2001.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1109%2Fjproc.2012.2189916",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://books.google.com/books?id=M34lAAAAMAAJ&q=univac",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://ilpubs.stanford.edu:8090/361/1/1998-8.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1016%2FS0169-7552%2898%2900110-X",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.emerald.com/insight/content/doi/10.1108/oir-10-2014-0257/full/html",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1108%2FOIR-10-2014-0257",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ISSN_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://search.worldcat.org/issn/1468-4527",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ArXiv_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/1810.04805",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/archive/cs.CL",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1007%2Fs10462-025-11162-5",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://search.worldcat.org/issn/1573-7462",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/1611.09268",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.microsoft.com/en-us/research/publication/overview-of-the-trec-2023-deep-learning-track/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/2107.09226",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/archive/math.NA",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3397271.3401075",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F3397271.3401075",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1-4503-8016-4",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/2010.06467",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/archive/cs.IR",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-3-642-28865-4",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/2104.08663",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://aclanthology.org/2020.tacl-1.20/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1162%2Ftacl_a_00315",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/2109.10739",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://babel.hathitrust.org/cgi/pt?id=mdp.39015034570591;view=1up;seq=3",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1093%2Fcomjnl%2F1.1.36",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-471-22151-7",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2Fasi.5090060411",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://yunus.hacettepe.edu.tr/~tonta/courses/spring2008/bby703/maron-on-probabilistic%20indexing-2008.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1016%2Fj.ipm.2007.02.012",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1016%2F0020-0271%2871%2990051-9",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.osti.gov/biblio/5047496",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/OCLC_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://search.worldcat.org/oclc/271407392",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/OSTI_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F3166.3197",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.ncbi.nlm.nih.gov/pmc/articles/PMC9196098",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.3233%2FISU-220147",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PMC_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PMID_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/35720429",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://archive.org/details/informationstora00korf/page/368",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-471-14338-3",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/History_of_Wikipedia",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://searchengineland.com/google-hummingbird-172816",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/2004.12832",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://dl.acm.org/doi/10.1145/3404835.3462805",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/2106.09227",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F3404835.3462805",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1-4503-8037-9",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=18",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://users.dcc.uchile.cl/~rbaeza/mir2ed/contents.php.html",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-321-41691-9",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://books.google.com/books?id=epD6AQAAQBAJ&pg=PR7",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-262-02651-2",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://search.worldcat.org/oclc/473652398",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20200511161049/http:/www.lisbdnet.com/information-retrieval-syste",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://www.lisbdnet.com/information-retrieval-syste/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://nlp.stanford.edu/IR-book/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-521-86571-5",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-0-252-05417-4",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/JSTOR_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.jstor.org/stable/jj.4116455",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://search.worldcat.org/oclc/1371410330",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&action=edit&section=19",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikiquote.org/wiki/Special:Search/Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/File:Commons-logo.svg",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://sigir.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.bcs.org/membership-and-registrations/member-communities/information-retrieval-specialist-group",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://trec.nist.gov/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://www.isical.ac.in/~fire",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.dcs.gla.ac.uk/Keith/Preface.html",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/C._J._van_Rijsbergen",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://ir.dcs.gla.ac.uk/wiki/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20151124065507/http:/ir.dcs.gla.ac.uk/wiki",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://ir-facility.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20080522151226/http:/www.ir-facility.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://trec.nist.gov/pubs/trec15/appendices/CE.MEASURES06.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://innovation.ebayinc.com/tech/engineering/measuring-search-relevance/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "http://retrieval.ceti.gr/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:Authority_control",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q816826",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://d-nb.info/gnd/4072803-1",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://id.loc.gov/authorities/sh85066148",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://catalogue.bnf.fr/ark:/12148/cb122132635",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://data.bnf.fr/ark:/12148/cb122132635",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://id.ndl.go.jp/auth/ndlna/00575010",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://aleph.nkp.cz/F/?func=find-c&local_base=aut&ccl_term=ica=ph163856&CON_LNG=ENG",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://datos.bne.es/resource/XX535604",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.nli.org.il/en/authorities/987007550614905171",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://lux.collections.yale.edu/view/concept/826cbdab-3491-4167-834f-9590f0873174",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:Category",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Natural_language_processing",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Articles_with_short_description",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Short_description_is_different_from_Wikidata",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Articles_needing_additional_references_from_February_2025",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:All_articles_needing_additional_references",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Wikipedia_articles_needing_clarification_from_June_2018",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Webarchive_template_wayback_links",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Pages_displaying_short_descriptions_of_redirect_targets_via_Module:Annotated_link",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Commons_category_link_from_Wikidata",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://wikimediafoundation.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://developer.wikimedia.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://stats.wikimedia.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Information_retrieval&mobileaction=toggle_view_mobile",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wikimedia.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    },
+    {
+      "url": "https://www.mediawiki.org/",
+      "origin": "https://en.wikipedia.org/wiki/Information_retrieval",
+      "depth": 1
+    }
+  ],
+  "log": [
+    {
+      "ts": 1776596321614,
+      "level": "info",
+      "msg": "crawl started origin=https://en.wikipedia.org/wiki/Information_retrieval k=1"
+    },
+    {
+      "ts": 1776596324605,
+      "level": "warn",
+      "msg": "fetch failed https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Information+retrieval: too many redirects (> 3)"
+    },
+    {
+      "ts": 1776596328379,
+      "level": "info",
+      "msg": "crawl finished pages=8 errors=1"
+    }
+  ]
+}

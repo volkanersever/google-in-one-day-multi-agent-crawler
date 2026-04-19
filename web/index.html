@@ -1,0 +1,226 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Multi-Agent Crawler — Command Deck</title>
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Ccircle cx='16' cy='16' r='10' fill='%2300f0ff' opacity='.8'/%3E%3Ccircle cx='16' cy='16' r='4' fill='%23ff00aa'/%3E%3C/svg%3E" />
+</head>
+<body>
+  <div class="grid-bg" aria-hidden="true"></div>
+
+  <header class="top-bar">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <span class="brand-name">MULTI-AGENT <b>CRAWLER</b></span>
+      <span class="brand-tag">v1.0 · localhost:3600</span>
+    </div>
+    <div class="top-meta">
+      <div id="state-pill" class="pill pill-ok" title="Back-pressure state">
+        <span class="dot"></span>
+        <span id="state-text">OK</span>
+      </div>
+      <div id="conn-pill" class="pill pill-muted" title="SSE connection">
+        <span class="dot dot-disconnected" id="conn-dot"></span>
+        <span id="conn-text">DISCONNECTED</span>
+      </div>
+    </div>
+  </header>
+
+  <div class="shell">
+    <aside class="rail">
+      <nav class="nav">
+        <a href="#/deck"    class="nav-item" data-route="deck">
+          <span class="nav-icon">&#9678;</span>
+          <span class="nav-label">Command Deck</span>
+        </a>
+        <a href="#/search"  class="nav-item" data-route="search">
+          <span class="nav-icon">&#9906;</span>
+          <span class="nav-label">Search</span>
+        </a>
+        <a href="#/crawls"  class="nav-item" data-route="crawls">
+          <span class="nav-icon">&#9783;</span>
+          <span class="nav-label">Crawls</span>
+        </a>
+      </nav>
+      <div class="rail-foot">
+        <div class="totals" id="rail-totals">
+          <div class="stat"><div class="stat-label">pages</div><div class="stat-val mono" id="t-pages">0</div></div>
+          <div class="stat"><div class="stat-label">urls</div><div class="stat-val mono" id="t-urls">0</div></div>
+          <div class="stat"><div class="stat-label">words</div><div class="stat-val mono" id="t-words">0</div></div>
+        </div>
+      </div>
+    </aside>
+
+    <main class="content">
+      <!-- ========================== COMMAND DECK ========================= -->
+      <section class="view" data-view="deck" hidden>
+        <div class="view-header">
+          <h1>Command Deck</h1>
+          <p class="subtitle">Launch a crawl. Watch the system breathe in real time.</p>
+        </div>
+
+        <div class="deck-grid">
+          <!-- Launcher -->
+          <section class="panel panel-launcher">
+            <div class="panel-head">
+              <h2>Launch Crawl</h2>
+              <span class="panel-tag">POST /index</span>
+            </div>
+            <form id="crawl-form" class="crawl-form" autocomplete="off">
+              <label class="field field-wide">
+                <span>Origin URL</span>
+                <input type="url" id="f-origin" name="origin" placeholder="https://example.com" required />
+              </label>
+              <label class="field">
+                <span>Max depth (k)</span>
+                <input type="number" id="f-k" name="k" min="0" max="10" step="1" value="2" required />
+              </label>
+              <div class="field-row">
+                <label class="field field-small">
+                  <span>Rate (rps)</span>
+                  <input type="number" id="f-rate" name="rate" min="1" step="1" value="5" />
+                </label>
+                <label class="field field-small">
+                  <span>Concurrency</span>
+                  <input type="number" id="f-conc" name="concurrency" min="1" step="1" value="5" />
+                </label>
+                <label class="field field-small">
+                  <span>Max queue</span>
+                  <input type="number" id="f-queue" name="maxQueue" min="10" step="10" value="500" />
+                </label>
+                <label class="field field-small">
+                  <span>Max pages</span>
+                  <input type="number" id="f-pages" name="maxPages" min="1" step="10" value="1000" />
+                </label>
+              </div>
+              <div class="form-actions">
+                <button type="submit" class="btn btn-primary" id="launch-btn">
+                  <span class="btn-glow"></span>
+                  <span class="btn-label">▸ Engage</span>
+                </button>
+                <div class="form-msg" id="form-msg" aria-live="polite"></div>
+              </div>
+            </form>
+          </section>
+
+          <!-- Telemetry -->
+          <section class="panel panel-telemetry">
+            <div class="panel-head">
+              <h2>Live Telemetry</h2>
+              <span class="panel-tag" id="telemetry-ts">—</span>
+            </div>
+
+            <div class="telemetry-grid">
+              <div class="tele tele-queue">
+                <div class="tele-label">Queue depth</div>
+                <div class="queue-bar">
+                  <div class="queue-fill" id="queue-fill"></div>
+                  <div class="queue-markers"><span></span><span></span><span></span><span></span></div>
+                </div>
+                <div class="queue-values mono">
+                  <span id="queue-depth">0</span>
+                  <span class="dim">/</span>
+                  <span id="queue-max">500</span>
+                </div>
+              </div>
+
+              <div class="tele">
+                <div class="tele-label">Rate</div>
+                <div class="tele-val mono big"><span id="t-rate">0.00</span><span class="unit">rps</span></div>
+              </div>
+
+              <div class="tele">
+                <div class="tele-label">Active crawls</div>
+                <div class="tele-val mono big" id="t-active">0</div>
+              </div>
+
+              <div class="tele">
+                <div class="tele-label">Pages indexed</div>
+                <div class="tele-val mono big" id="t-pages-big">0</div>
+              </div>
+
+              <div class="tele">
+                <div class="tele-label">Words indexed</div>
+                <div class="tele-val mono big" id="t-words-big">0</div>
+              </div>
+
+              <div class="tele tele-wide">
+                <div class="tele-label">Last indexed URL</div>
+                <div class="marquee"><div class="marquee-inner mono" id="t-last">—</div></div>
+              </div>
+            </div>
+          </section>
+
+          <!-- Event stream -->
+          <section class="panel panel-stream">
+            <div class="panel-head">
+              <h2>Event Stream</h2>
+              <span class="panel-tag">SSE</span>
+            </div>
+            <ul class="event-list" id="event-list" aria-live="polite"></ul>
+          </section>
+        </div>
+      </section>
+
+      <!-- ============================ SEARCH ============================ -->
+      <section class="view" data-view="search" hidden>
+        <div class="view-header">
+          <h1>Search</h1>
+          <p class="subtitle">Query the live index. Re-ranks as the crawler streams in.</p>
+        </div>
+
+        <div class="search-wrap">
+          <div class="search-box panel">
+            <input type="text" id="q-input" class="q-input" placeholder="Type a query and press Enter…" />
+            <div class="sort-chips" role="tablist" aria-label="Sort">
+              <button class="chip chip-on" data-sort="relevance">relevance</button>
+              <button class="chip" data-sort="depth">depth</button>
+              <button class="chip" data-sort="frequency">frequency</button>
+            </div>
+          </div>
+
+          <div class="results-meta mono" id="results-meta">awaiting query…</div>
+
+          <ol class="results" id="results"></ol>
+        </div>
+      </section>
+
+      <!-- ============================ CRAWLS ============================ -->
+      <section class="view" data-view="crawls" hidden>
+        <div class="view-header">
+          <h1>Crawls</h1>
+          <p class="subtitle">History and live runs. Click a row to see its log.</p>
+          <div class="view-actions">
+            <button class="btn" id="crawls-refresh">↻ Refresh</button>
+          </div>
+        </div>
+
+        <section class="panel">
+          <div class="crawls-table-wrap">
+            <table class="crawls-table" id="crawls-table">
+              <thead>
+                <tr>
+                  <th>Crawler ID</th>
+                  <th>Origin</th>
+                  <th class="num">k</th>
+                  <th>Status</th>
+                  <th class="num">Pages</th>
+                  <th>Started</th>
+                  <th class="num">Duration</th>
+                </tr>
+              </thead>
+              <tbody id="crawls-tbody">
+                <tr class="empty"><td colspan="7">no crawls yet</td></tr>
+              </tbody>
+            </table>
+          </div>
+        </section>
+      </section>
+    </main>
+  </div>
+
+  <script src="/app.js" defer></script>
+</body>
+</html>

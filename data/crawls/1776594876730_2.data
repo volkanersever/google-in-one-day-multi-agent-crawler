@@ -1,0 +1,2351 @@
+{
+  "crawlerId": "1776594876730_2",
+  "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+  "k": 1,
+  "opts": {
+    "maxConcurrency": 3,
+    "rateLimit": 3,
+    "maxQueue": 500,
+    "maxPages": 25,
+    "userAgent": "MultiAgentCrawler/1.0 (+https://github.com/volkanersever)"
+  },
+  "status": "finished",
+  "startedAt": 1776594876730,
+  "endedAt": 1776594891446,
+  "stats": {
+    "pagesCrawled": 25,
+    "urlsSeen": 489,
+    "errors": 1,
+    "wordsIndexed": 15582,
+    "lastUrl": "https://cy.wikipedia.org/wiki/Ymgripiwr_gwe"
+  },
+  "frontier": [
+    {
+      "url": "https://el.wikipedia.org/wiki/%CE%91%CE%BD%CE%B9%CF%87%CE%BD%CE%B5%CF%85%CF%84%CE%AE%CF%82_%CE%B9%CF%83%CF%84%CE%BF%CF%8D",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://es.wikipedia.org/wiki/Ara%C3%B1a_web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://et.wikipedia.org/wiki/Veebi%C3%A4mblik",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://eu.wikipedia.org/wiki/Web_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://fa.wikipedia.org/wiki/%D8%AE%D8%B2%D9%86%D8%AF%D9%87_%D9%88%D8%A8",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://fi.wikipedia.org/wiki/Hakurobotti",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://fr.wikipedia.org/wiki/Robot_d%27indexation",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://he.wikipedia.org/wiki/%D7%96%D7%97%D7%9C%D7%9F_%D7%A8%D7%A9%D7%AA",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://hr.wikipedia.org/wiki/Web_pauk",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://hu.wikipedia.org/wiki/Keres%C5%91robot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://hy.wikipedia.org/wiki/%D5%88%D6%80%D5%B8%D5%B6%D5%B8%D5%B2%D5%A1%D5%AF%D5%A1%D5%B6_%D5%BC%D5%B8%D5%A2%D5%B8%D5%BF",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ia.wikipedia.org/wiki/Rastreator_de_rete",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://id.wikipedia.org/wiki/Perangkak_web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://io.wikipedia.org/wiki/Webala_roboto",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://it.wikipedia.org/wiki/Crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ja.wikipedia.org/wiki/%E3%82%AF%E3%83%AD%E3%83%BC%E3%83%A9",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ko.wikipedia.org/wiki/%EC%9B%B9_%ED%81%AC%EB%A1%A4%EB%9F%AC",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://lt.wikipedia.org/wiki/Interneto_robotas",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://lv.wikipedia.org/wiki/T%C4%ABmek%C4%BCa_r%C4%81pu%C4%BCprogramma",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://mhr.wikipedia.org/wiki/%D0%9A%D1%8B%D1%87%D0%B0%D0%BB%D1%88%D0%B5_%D1%80%D0%BE%D0%B1%D0%BE%D1%82",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ms.wikipedia.org/wiki/Perangkak_web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://nds-nl.wikipedia.org/wiki/Webkroeper",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://nl.wikipedia.org/wiki/Spider",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://nn.wikipedia.org/wiki/S%C3%B8kerobot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://no.wikipedia.org/wiki/S%C3%B8kerobot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://pl.wikipedia.org/wiki/Robot_internetowy",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://pt.wikipedia.org/wiki/Rastreador_web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://qu.wikipedia.org/wiki/Web_aysakuq",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ro.wikipedia.org/wiki/Robot_de_c%C4%83utare",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ru.wikipedia.org/wiki/%D0%9F%D0%BE%D0%B8%D1%81%D0%BA%D0%BE%D0%B2%D1%8B%D0%B9_%D1%80%D0%BE%D0%B1%D0%BE%D1%82",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://simple.wikipedia.org/wiki/Web_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://sr.wikipedia.org/wiki/Veb-popisiva%C4%8D",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://sv.wikipedia.org/wiki/Spindel_(internet)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ta.wikipedia.org/wiki/%E0%AE%B5%E0%AE%B2%E0%AF%88_%E0%AE%8A%E0%AE%B0%E0%AF%8D%E0%AE%A4%E0%AE%BF",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://th.wikipedia.org/wiki/%E0%B9%80%E0%B8%A7%E0%B9%87%E0%B8%9A%E0%B8%84%E0%B8%A3%E0%B8%AD%E0%B8%A7%E0%B9%8C%E0%B9%80%E0%B8%A5%E0%B8%AD%E0%B8%A3%E0%B9%8C",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://tr.wikipedia.org/wiki/Arama_robotu",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://uk.wikipedia.org/wiki/%D0%9F%D0%BE%D1%88%D1%83%D0%BA%D0%BE%D0%B2%D0%B8%D0%B9_%D1%80%D0%BE%D0%B1%D0%BE%D1%82",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://zh-classical.wikipedia.org/wiki/%E7%88%AC%E7%B6%B2%E8%9F%B2%E6%A2%B0",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://zh.wikipedia.org/wiki/%E7%B6%B2%E8%B7%AF%E7%88%AC%E8%9F%B2",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Special:EntityPage/Q45842",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Talk:Web_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=history",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:WhatLinksHere/Web_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:RecentChangesLinked/Web_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:File_Upload_Wizard",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&oldid=1348838781",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=info",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:CiteThisPage&page=Web_crawler&id=1348838781&wpFormIdentifier=titleform",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:UrlShortener&url=https%3A%2F%2Fen.wikipedia.org%2Fwiki%2FWeb_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Special:DownloadAsPdf&page=Web_crawler&action=show-download-screen",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&printable=yes",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/WebCrawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spider_web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spiderbot_(video_game)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/File:WebCrawlerArchitecture.svg",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Internet_bot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engines",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_indexing",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Website",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Software",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_content",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Index_(search_engine)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robots.txt",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Software_agent",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hyperlink",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/HTML",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_scraping",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Data-driven_programming",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=1",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FOAF_(software)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=2",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Uniform_Resource_Locator",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_server",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crawl_frontier",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Recursion",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_archiving",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Duplicate_content",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/HTTP",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Thumbnail",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mathematical_combination",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bandwidth_(computing)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=3",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Websites",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=4",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Steve_Lawrence_(computer_scientist)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Lee_Giles",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engine_indexing",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_pages",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Intrinsic_and_extrinsic_properties_(philosophy)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Vertical_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Top-level_domain",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Breadth-first_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Backlink",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PageRank",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Marc_Najork",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Algorithm",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=5",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Internet_media_type",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Query_string",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spider_trap",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/URL_rewriting",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=6",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/URL_normalization",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=7",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=8",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Focused_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Filippo_Menczer",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=9",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Focused_crawlers",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CiteSeer",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google_Scholar",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Academic_Search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PDF",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PostScript",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Word",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Zipped_file",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Heritrix",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MIME_types",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Middleware",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Machine_learning",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Regular_expression",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Metadata",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=10",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Domain_ontology",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Support-vector_machine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=11",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Edward_G._Coffman,_Jr.",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/File:Web_Crawling_Freshness_Age.png",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Panos_Ipeirotis",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=12",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robots_Exclusion_Standard",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google.com",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ask.com",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bing_(search_engine)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yahoo!_Search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sergey_Brin",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Larry_Page",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=13",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Distributed_web_crawling",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Parallel_computing",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=14",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spamdexing",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=15",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Unintended_consequences",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_application_security",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Data_breach",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google_hacking",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Robots_exclusion_standard",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=16",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/User_agent",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Spambots",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=17",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Deep_Web_(search_indexing)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Sitemaps",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Mod_oai",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Deep_web",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Googlebot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Screen_scraping",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/AJAX",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Google_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=18",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Citation_needed",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=19",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_search_engine_software",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=20",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20020106130042/http:/www.wolfbot.com/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/World_Wide_Web_Worm",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grep",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Unix",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Yahoo!",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Microsoft",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bingbot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=21",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apple_(company)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Siri",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Msnbot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Baidu",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/DuckDuckGo",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Python_(programming_language)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Libwww",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/WebFountain",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Xenon_(program)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=22",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Diffbot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/API",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/SortSite",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Microsoft_Windows",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Macintosh_operating_systems",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Swiftype",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Software_as_a_service",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=23",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apache_Nutch",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apache_License",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apache_Hadoop",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Apache_Solr",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Elasticsearch",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Grub_(search_engine)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikia_Search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Internet_Archive",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Java_(programming_language)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Ht-/dig",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/HTTrack",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/C_(programming_language)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Azure_Cognitive_Search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Amazon_CloudSearch",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/MnoGoSearch",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Open_Search_Server",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Scrapy",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/BSD_License",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Seeks",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/GNU_Affero_General_Public_License",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/StormCrawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Storm_(event_processor)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TkWWW_Robot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TkWWW",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wget",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Command_line_interface",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/GNU_General_Public_License",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/YaCy",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=24",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Automatic_indexing",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Common_Crawl",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Gnutella_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Webgraph",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Website_mirroring_software",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_Engine_Scraping",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=25",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20211206205907/https:/webbrowsersintroduction.com/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://webbrowsersintroduction.com/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20040903174942/http:/archive.ncsa.uiuc.edu/SDG/IT94/Proceedings/Agents/spetka/spetka.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/National_Center_for_Supercomputing_Applications",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://archive.ncsa.uiuc.edu/SDG/IT94/Proceedings/Agents/spetka/spetka.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/CiteSeerX_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.126.6094",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Doi_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F358923.358934",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/S2CID_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:3710903",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://wiki.foaf-project.org/w/Scutter",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20091213213920/http:/wiki.foaf-project.org/w/Scutter",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wayback_Machine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.springer.com/gp/book/9783540233381",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ISBN_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-3-54046332-0",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20140625233510/http:/www10.org/cdrom/papers/210/index.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.1018.1506",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F371920.371960",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-1581133486",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:10316730",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www10.org/cdrom/papers/210/index.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Cite_book",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:CS1_maint:_multiple_names:_authors_list",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.konvesdigital.com/crawling-indexing-technical/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://chato.cl/science/crawling_thesis/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F1062745.1062789",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1038%2F21987",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Bibcode_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/1999Natur.400..107L",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PMID_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://pubmed.ncbi.nlm.nih.gov/10428673",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:4347646",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://ilpubs.stanford.edu:8090/347/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1142%2F3725",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-981-02-3400-3",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://oak.cs.ucla.edu/~cho/papers/cho-thesis.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20121221113621/http:/oak.cs.ucla.edu/~cho/papers/cho-thesis.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www10.org/cdrom/papers/pdf/p208.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20171224210412/http:/www10.org/cdrom/papers/pdf/p208.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20080320035819/https:/www2003.org/cdrom/papers/refereed/p007/p7-abiteboul.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F775152.775192",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/1-58113-680-3",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www2003.org/cdrom/papers/refereed/p007/p7-abiteboul.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20090320030833/http:/vigna.dsi.unimi.it/ftp/papers/UbiCrawler.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.2.5538",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2Fspe.587",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:325714",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://vigna.dsi.unimi.it/ftp/papers/UbiCrawler.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20051001063017/http:/vigna.dsi.unimi.it/ftp/papers/ParadoxicalPageRank.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1007%2F978-3-540-30216-2_14",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-23427-2",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://vigna.dsi.unimi.it/ftp/papers/ParadoxicalPageRank.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://chato.cl/papers/baeza05_crawling_country_better_breadth_first_web_page_ordering.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.researchgate.net/publication/220724572_A_Fast_Community_Based_Algorithm_for_Generating_Web_Crawler_Seeds_Set",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Webist",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20090320030832/http:/dollar.biz.uiowa.edu/~pant/Papers/crawling.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Alexandra_Poulovassilis",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-3-540-40676-1",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://dollar.biz.uiowa.edu/~pant/Papers/crawling.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20170922004119/http:/www.scit.wlv.ac.uk/~in7803/publications/cothey_2004.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.117.185",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2Fasi.20078",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.scit.wlv.ac.uk/~in7803/publications/cothey_2004.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://informatics.indiana.edu/fil/Papers/ICML.ps",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20121221113620/http:/informatics.indiana.edu/fil/Papers/ICML.ps",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://informatics.indiana.edu/fil/Papers/AA98.ps",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20121221113630/http:/informatics.indiana.edu/fil/Papers/AA98.ps",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20040317210216/http:/www.fxpal.com/people/vdberg/pubs/www8/www1999f.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1016%2Fs1389-1286%2899%2900052-3",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.fxpal.com/people/vdberg/pubs/www8/www1999f.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20010904075500/http:/archive.ncsa.uiuc.edu/SDG/IT94/Proceedings/Searching/pinkerton/WebCrawler.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://clgiles.ist.psu.edu/papers/VLDB-2000-focused-crawling.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F2389936.2389949",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781450317207",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:18513666",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F2380718.2380762",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/9781450312288",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:16718130",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.researchgate.net/publication/44241179",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1007%2F978-3-642-02457-3_74",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Hdl_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://hdl.handle.net/20.500.11937%2F48288",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/978-3-642-02456-6",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.researchgate.net/publication/264620349",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2Fcpe.2980",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:205690364",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.cs.brown.edu/courses/cs227/2002/cache/Cho.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F342009.335391",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:BookSources/1-58113-217-4",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.36.6087",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2F%28SICI%291099-1425%28199806%291%3A1%3C15%3A%3AAID-JOS3%3E3.0.CO%3B2-K",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F958942.958945",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:147958",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://citeseerx.ist.psu.edu/viewdoc/summary?doi=10.1.1.59.5877",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F857166.857170",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:9362566",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://pages.stern.nyu.edu/~panos/publications/icde2005.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20050905013119/http:/pages.stern.nyu.edu/~panos/publications/icde2005.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.robotstxt.org/wc/exclusion.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20071107021800/http:/www.robotstxt.org/wc/exclusion.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.robotstxt.org/wc/guidelines.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20050422045839/http:/www.robotstxt.org/wc/guidelines.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.chato.cl/papers/baeza02balancing.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20060219085958/http:/www.cindoc.csic.es/cybermetrics/pdf/68.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.cindoc.csic.es/cybermetrics/pdf/68.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Cite_journal",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:CS1_errors",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.mccurley.org/papers/fractal.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1145%2F572326.572328",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:6416041",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20080307071132/http:/www.scit.wlv.ac.uk/%7Ecm1993/papers/Web_Crawling_Ethics_preprint.doc",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1002%2Fasi.20388",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.scit.wlv.ac.uk/%7Ecm1993/papers/Web_Crawling_Ethics_preprint.doc",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://infolab.stanford.edu/~backrub/google.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1016%2Fs0169-7552%2898%2900110-x",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://api.semanticscholar.org/CorpusID:7587743",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Torsten_Suel",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://cis.poly.edu/tr/tr-cis-2001-03.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20051001063011/http:/cis.poly.edu/tr/tr-cis-2001-03.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://oa.doria.fi/handle/10024/38506",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20140706120641/https:/oa.doria.fi/handle/10024/38506",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/ArXiv_(identifier)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://arxiv.org/abs/cs/0503069",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://ui.adsabs.harvard.edu/abs/2005cs........3069N",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.mendeley.com/download/public/1423991/3893295922/dc0f7d824fd2a8fbbc84f6fdf9e4f337d343987d/dl.pdf",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://doi.org/10.1016%2Fs0169-023x%2804%2900107-7",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Link_rot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20130306070359/http:/support.google.com/webmasters/bin/answer.py?hl=en&answer=174992",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://support.google.com/webmasters/bin/answer.py?hl=en&answer=174992",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://semanticweb.com/more-semantics-for-google-ita-software-acquisition-comes-with-needlebase-too_b19329",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20140318134631/http:/semanticweb.com/more-semantics-for-google-ita-software-acquisition-comes-with-needlebase-too_b19329",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://support.apple.com/en-us/HT204683",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wired.com/2007/01/tax-takers-send-in-the-spiders/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wired_(magazine)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20161222185208/https:/www.wired.com/2007/01/tax-takers-send-in-the-spiders/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/xenon-web-crawling-initiative-privacy-impact-assessment-summary.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20170925203155/https:/www.canada.ca/en/revenue-agency/services/about-canada-revenue-agency-cra/protecting-your-privacy/privacy-impact-assessment/xenon-web-crawling-initiative-privacy-impact-assessment-summary.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&action=edit&section=26",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://oak.cs.ucla.edu/~cho/research/crawl.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://web.archive.org/web/20130707020128/http:/oak.cs.ucla.edu/~cho/research/crawl.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "http://www.wiley.com/legacy/compbooks/sonnenreich/history.html",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/John_Wiley_%26_Sons",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://github.com/bedirhan/wivet",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/OWASP",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slideshare.net/denshe/icwe13-tutorial-webcrawling",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.slideshare.net/denshe/intelligent-crawling-shestakovwiiat13",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Internet_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template_talk:Internet_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:EditPage/Template:Internet_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Internet_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/List_of_search_engines",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Metasearch_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Multimedia_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Collaborative_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cross-language_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Local_search_(Internet)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Social_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Image_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Audio_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Video_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Enterprise_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Semantic_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Natural_language_search_engine",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Voice_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Cross-language_information_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_by_sound",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engine_marketing",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engine_optimization",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Search_oriented_architecture&action=edit&redlink=1",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Selection-based_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Document_retrieval",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Text_mining",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Multisearch",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Federated_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_aggregator",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_query",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_query_classification",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Z39.50",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search/Retrieve_Web_Service",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search/Retrieve_via_URL",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/OpenSearch_(specification)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Representational_State_Transfer",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wide_area_information_server",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Search_engine_(computing)",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Desktop_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Online_search",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template:Web_crawlers",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Template_talk:Web_crawlers",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Special:EditPage/Template:Web_crawlers",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Web_crawling",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/80legs",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Crawljax",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Fetcher",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/PowerMapper",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/FAST_Crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/RBSE",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/TkWWW_robot",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Twiceler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Distributed_web_crawler",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:Authority_control",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wikidata.org/wiki/Q45842",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://d-nb.info/gnd/4796298-7",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Help:Category",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Search_engine_software",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Web_crawlers",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Internet_search_algorithms",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Webarchive_template_wayback_links",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:CS1_errors:_missing_periodical",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:All_articles_with_dead_external_links",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Articles_with_dead_external_links_from_August_2025",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Articles_with_permanently_dead_external_links",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Articles_with_short_description",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Short_description_is_different_from_Wikidata",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Use_dmy_dates_from_September_2020",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:All_articles_with_unsourced_statements",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Category:Articles_with_unsourced_statements_from_June_2021",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:Text_of_the_Creative_Commons_Attribution-ShareAlike_4.0_International_License",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Terms_of_Use",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Privacy_policy",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://wikimediafoundation.org/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/wiki/Wikipedia:General_disclaimer",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Universal_Code_of_Conduct",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://developer.wikimedia.org/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://stats.wikimedia.org/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://foundation.wikimedia.org/wiki/Special:MyLanguage/Policy:Cookie_statement",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://en.wikipedia.org/w/index.php?title=Web_crawler&mobileaction=toggle_view_mobile",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.wikimedia.org/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    },
+    {
+      "url": "https://www.mediawiki.org/",
+      "origin": "https://en.wikipedia.org/wiki/Web_crawler",
+      "depth": 1
+    }
+  ],
+  "log": [
+    {
+      "ts": 1776594876731,
+      "level": "info",
+      "msg": "crawl started origin=https://en.wikipedia.org/wiki/Web_crawler k=1"
+    },
+    {
+      "ts": 1776594885841,
+      "level": "warn",
+      "msg": "fetch failed https://en.wikipedia.org/w/index.php?title=Special:CreateAccount&returnto=Web+crawler: too many redirects (> 3)"
+    },
+    {
+      "ts": 1776594891446,
+      "level": "info",
+      "msg": "crawl finished pages=25 errors=1"
+    }
+  ]
+}

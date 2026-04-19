@@ -1,0 +1,2946 @@
+{
+  "crawlerId": "1776595536958_1",
+  "origin": "https://kb.voyce.cc/",
+  "k": 3,
+  "opts": {
+    "maxConcurrency": 5,
+    "rateLimit": 5,
+    "maxQueue": 500,
+    "maxPages": 1001,
+    "userAgent": "MultiAgentCrawler/1.0 (+https://github.com/volkanersever)"
+  },
+  "status": "interrupted",
+  "startedAt": 1776595536959,
+  "endedAt": 1776596160800,
+  "stats": {
+    "pagesCrawled": 60,
+    "urlsSeen": 643,
+    "errors": 1,
+    "wordsIndexed": 19884,
+    "lastUrl": "https://www.linkedin.com/learning/search?trk=organization_guest_guest_nav_menu_learning"
+  },
+  "frontier": [
+    {
+      "url": "https://www.linkedin.com/jobs/search?trk=organization_guest_guest_nav_menu_jobs",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/games?trk=organization_guest_guest_nav_menu_games",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=organization_guest_nav-header-join",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&fromSignIn=true&trk=organization_guest_nav-header-signin",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/login?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&fromSignIn=true&trk=top-card_top-card-secondary-button-top-card-secondary-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D%255B14041716%255D&trk=org-employees_cta_face-pile-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/uas/login?fromSignIn=true&session_redirect=https%3A%2F%2Ftr.linkedin.com%2Fcompany%2Fvoycetr&trk=top-card_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=COMPANY&_f=guest-reporting",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/redir/redirect?url=http%3A%2F%2Fwww%2Evoyce%2Ecom%2Etr&urlhash=iqt2&trk=about_website",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.bing.com/maps?where=Selimpa%C5%9Fa+Mah.+1010+Sk.+No%3A+10%2F1+%C4%B0%C3%A7+Kap%C4%B1+No%3A+77+Silivri+Kadir+Has+%C3%9Cniversitesi+Teknopark+Istanbul+34590+TR&trk=org-locations_url",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/in/alikaraduman?trk=org-employees",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/in/karadumanerdem?trk=org-employees",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/in/burak-tutkun-445071114?trk=org-employees",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/in/emre-demir-8b9a02179?trk=org-employees",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fsearch%2Fresults%2Fpeople%2F%3FfacetCurrentCompany%3D%255B14041716%255D&trk=public_biz_employees-join",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-activity-7450173485923962881-iWKM",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/voycetr?trk=organization_guest_main-feed-card_feed-actor-image",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/voycetr?trk=organization_guest_main-feed-card_feed-actor-name",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/uas/login?fromSignIn=true&session_redirect=https%3A%2F%2Ftr.linkedin.com%2Fcompany%2Fvoycetr&trk=organization_guest_main-feed-card_ellipsis-menu-semaphore-sign-in-redirect&guestReportContentType=POST&_f=guest-reporting",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fvoyce&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=organization_guest_main-feed-card_social-actions-reactions",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=organization_guest_main-feed-card_like-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=organization_guest_main-feed-card_comment-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=organization_guest_main-feed-card_share-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-cagr%C4%B1merkezi-verimlilik-activity-7449471064461537280-B7aM",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FcagrAfTmerkezi&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fverimlilik&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-%C3%A7a%C4%9Fr%C4%B1merkezi-y%C3%B6netim-activity-7447275249299247105-wyNU",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FAexaAfBrAfTmerkezi&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FyAeMnetim&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-%C3%A7a%C4%9Fr%C4%B1merkezi-h%C4%B1zl%C4%B1-activity-7445862999929565184-OnPJ",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FhAfTzlAfT&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-%C3%A7a%C4%9Fr%C4%B1merkezi-yaz%C4%B1l%C4%B1m-activity-7445093922365816833-nSV4",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FyazAfTlAfTm&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fentegrasyon&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-sinpas-%C3%A7a%C4%9Fr%C4%B1merkezi-activity-7444377729065627649-q0oZ",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fsinpas&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-ai-yapayzeka-activity-7442873296859193345-Rgak",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fai&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fyapayzeka&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-%C3%A7a%C4%9Fr%C4%B1merkezi-maliyet-activity-7441811619522768896-hJTe",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fmaliyet&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-ai-yapayzeka-activity-7436732550217142273-sxyt",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FdijitaliletiAgNim&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fagenticai&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2Fteknoloji&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/posts/voycetr_voyce-dijitalileti%C5%9Fim-m%C3%BC%C5%9Fterideneyimi-activity-7435644514813452289-8-UV",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FmAeSAgNterideneyimi&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww.linkedin.com%2Ffeed%2Fhashtag%2FakAfTllAfTiletiAgNim&trk=organization_guest_main-feed-card-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=public_biz_promo-join",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/stebilisimcom?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/company/voyce?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/piyziturkiye?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/alotechbulut?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/dscience?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/callexper?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/techirsoft?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/company/theos-ai?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/company/mehaz-teknoloji?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://tr.linkedin.com/company/kafein-technology-solutions?trk=similar-pages",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/network-operations-center-jobs?trk=organization_guest-browse_jobs",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/ios-developer-jobs?trk=organization_guest_linkster_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/technical-recruiter-jobs?trk=organization_guest_linkster_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/software-engineer-jobs?trk=organization_guest_linkster_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/recruiter-jobs?trk=organization_guest_linkster_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://about.linkedin.com/?trk=d_org_guest_company_overview_footer-about",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/accessibility?trk=d_org_guest_company_overview_footer-accessibility",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/user-agreement?trk=d_org_guest_company_overview_footer-user-agreement",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/privacy-policy?trk=d_org_guest_company_overview_footer-privacy-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/cookie-policy?trk=d_org_guest_company_overview_footer-cookie-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/copyright-policy?trk=d_org_guest_company_overview_footer-copyright-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://brand.linkedin.com/policies?trk=d_org_guest_company_overview_footer-brand-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/psettings/guest-controls?trk=d_org_guest_company_overview_footer-guest-controls",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/professional-community-policies?trk=d_org_guest_company_overview_footer-community-guide",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/user-agreement?trk=linkedin-tc_auth-button_user-agreement",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/privacy-policy?trk=linkedin-tc_auth-button_privacy-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/legal/cookie-policy?trk=linkedin-tc_auth-button_cookie-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/uas/request-password-reset?trk=csm-v2_forgot_password",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Fcompany%2Fvoycetr&trk=organization_guest_contextual-sign-in-modal_join-link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12040986-otomatik-arama-sss&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://help.x.com/using-x/x-supported-browsers",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://x.com/tos",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://x.com/privacy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://support.x.com/articles/20170514",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://legal.twitter.com/imprint.html",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://business.twitter.com/en/help/troubleshooting/how-twitter-ads-work.html?ref=web-twc-ao-gbl-adsinfo&utm_source=twc&utm_medium=web&utm_campaign=ao&utm_content=adsinfo",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.intercom.com/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://app.intercom.com/admins/sign_in",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link/support?company=Voyce&solution=customer-support",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 2
+    },
+    {
+      "url": "http://www.voyce.com.tr/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/cdn-cgi/l/email-protection",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12009016-voyce-gizlilik-politikasi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.resmigazete.gov.tr/eskiler/2018/03/20180310-6.htm",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12009644-voyce-kisisel-verilerin-islenmesi-ve-korunmasi-politikasi-kvkk&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12621878-ses-kalitesi-qos-rehberi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://voyce.com.tr/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://voyce.cc/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://support.google.com/chrome/answer/95647",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://support.mozilla.org/tr/kb/cerezleri-silme-web-sitelerinin-bilgilerini-kaldirma",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://support.microsoft.com/tr-tr/windows/microsoft-edge-g%C3%B6zatma-verileri-ve-gizlilik-bb8174ba-9d73-dcf2-9b4a-c582b4e640dd",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://support.apple.com/tr-tr/guide/safari/sfri11471/mac",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12009568-voyce-cerez-politikasi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://developer.voyce.cc/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12009693-voyce-api&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://download.rockylinux.org/pub/rocky/10/isos/x86_64/Rocky-10.0-x86_64-minimal.iso",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://releases.ubuntu.com/20.04.6/ubuntu-20.04.6-live-server-amd64.iso",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12087802-sistem-gereksinimleri&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12331283-voyce-active-directory-ad-entegrasyonu&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703226904/888900aa4e8d3e8177d9b76c4c13/123yeni.png?expires=1776597300&signature=4f1dc14e18dd54921484657ec8852ba17d4f2182a675ad9d5fa7f9e25fad1e20&req=dScnFct8m4hfXfMW1HO4zdp1mLFmHu4Ed%2BkhE%2FCnN%2FFbB27WJAgEmavpDY%2FH%0A7w9cOWdPU1jCnd1NEtw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703211900/941dccab0515c4460db03d7af078/Picture2.png?expires=1776597300&signature=4bf44406007160de45fe4b11d5bb239f7e88fdb4105fcf263f84beb56834348a&req=dScnFct%2FnIhfWfMW1HO4zUB0eqGtMpJGyY7%2BwqQ2MEtvveJhEoEPpIUo%2BDEr%0AfS7xooVX1lh%2FsmOqS1Y%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703212274/ebd833b98fd7791cbe8662a06aed/Picture3.png?expires=1776597300&signature=2b0ffad5c205e1c6c871d7d8d72c2e2809e8997d4fc6f8750c6864b8ed5aa602&req=dScnFct%2Fn4NYXfMW1HO4zbSt56txAtglH%2FWM7oDmPXNQbIVuztCUTHTEutmd%0ADBRJQ1lyDuJaLCLBNPw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703212538/72e87716702c6761b1214f84db15/Picture4.png?expires=1776597300&signature=83e7ee6c5faace511515151db28af5c1763fd2e3531490b7f95a0997944f1bd9&req=dScnFct%2Fn4RcUfMW1HO4zdSmjOSeLq1xuTqd3Sl7%2FgHv%2BK0u4pt45tS0QCdm%0Ari83E%2FeFj86V0GGnE7w%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703213857/af5af5f500cbb31689f9f1771e41/Picture5.png?expires=1776597300&signature=f5ccee8d15f3523636541228c09ff7a4dffb68d7b0724876049661359dcb7adf&req=dScnFct%2FnolaXvMW1HO4zecPHfiHmoJkmNkotHPHY1i86zugCcENU87cvd%2Bw%0A7r4yhBFOHDAq2CAuevE%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703212893/7357f1510b78584d32bc3dd638de/Picture6.png?expires=1776597300&signature=f9b7f6eb147e68e2b4f8190a7b0216a570acc1a2588b684a842fcc1601ebd4e4&req=dScnFct%2Fn4lWWvMW1HO4zXUQVRWuBEjQBs8cXGX15b0qNFwLuSnHrnypq2pQ%0ANAKifYwNoXj2urt5mM4%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703214586/3f1bd5c32954a3425dea23b13d36/Picture7.png?expires=1776597300&signature=4d184bfde78af7989847f3839187793e4082ed1253edc8f97d588d4e7a6ea794&req=dScnFct%2FmYRXX%2FMW1HO4zen6dWiiUKcWLV%2FAtpR7exdTG3zuaWxykqqYoORt%0AbDQ9Mg6Yaqv5bvThCs8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12130876-voyce-sertifika-yukleme-kilavuzu&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1846150861/cf3f5537bdc355fdedf380295a5a/WhatsApp+Image+2025-11-24+at+09_38_24.jpeg?expires=1776597300&signature=0a9221fbd9c044db776c11dad2326faffb603690d871989ab8f55252b45ea75f&req=dSgjEMh7nYlZWPMW1HO4zTjJvmv3Zckd%2BUM5FH%2B9xLuj4bHyiNGAfOAgdjeI%0APm4G5iXjnGJF9D%2Fxal0%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1846151799/27607f21f1c10af66da8ff983c18/WhatsApp+Image+2025-11-24+at+09_38_31.jpeg?expires=1776597300&signature=fb311cd146311cbc938d33d843e18053843b368ed9f9802f0244e0cd5f7d7cce&req=dSgjEMh7nIZWUPMW1HO4zcrUBt9swth0S%2FJpiNgR5JIszT3uHgA9zaa38%2B7%2F%0Axz6ukkozKyufM6BfVOs%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12913707-voyce-sistem-mimarisi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://api.{tenant}.voyce.cc/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://mini.{tenant}.voyce.cc/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F13342247-voyce-mini-api&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://developers.facebook.com/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12958442-whatsapp-business-saglayici-bilgileri-rehberi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F13553291-meta-isletme-dogrulamasi-sorun-giderme-rehberi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://business.facebook.com/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1862481788/dd33bdd3dff78581fc32e36b075e/Ekran+Resmi+2025-12-03+11_19_49.png?expires=1776597300&signature=a639272e138a4c40a717fbd6755da56c160d5d44e071f04b61c123ed1ca33356&req=dSghFM12nIZXUfMW1HO4zWSftcPCr8sJr1Of%2B4VwwF5nvJM3FNwcvh35apRs%0A8L4akF1vn%2BwXehZEDsA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1862482827/6dd0b88660103c46a3849e17edc2/Ekran+Resmi+2025-12-03+11_20_30.png?expires=1776597300&signature=2f05d2b15258e7ca987d35d885574057e355aa616b086845fb701c0df9b3de2a&req=dSghFM12n4ldXvMW1HO4zdFLBXPAzv7UfmTAvN5tqnz%2BKNyKxhlLUpKPZopJ%0AaVe8pHqscGUZnw%2B2Rn8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12990842-meta-business-uzerinden-whatsapp-entegrasyon-izni-verme-rehberi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Fcollections%2F14723671-temsilci-ekranlari&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669739348/2d42c4ae45a973b3e37df6077230/5d2df206-ca5a-4c66-b345-f62e37e70d97?expires=1776597300&signature=bca6e7f90043c4395aee267065c98915e8d287c344153696dea7262f2d635bbf&req=dSYhH859lIJbUfMW1HO4zZjx7w%2F%2F3tcm8dGcFqTWv5leEFLqstlGa%2FFjG%2F0t%0A2ftRr4V6%2BzSWJDVxm5w%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669739345/1f8b53509afeaf7c898de58ec328/4bfcd02f-67ae-4dfd-a2d1-e2ffad5e121f?expires=1776597300&signature=49e3a555f70fa579a084115e33f354ca6b26e0c6e17f9ca56fb016bb44600005&req=dSYhH859lIJbXPMW1HO4zQ3XgRUfXfosoMdleSFw2SMr8MP7%2Fc7nAiqAhASp%0Aw5WBSMWxCG9wT5Owluw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669739344/d0ae243a615fc0c7680fbce66ddf/41de4879-17da-453c-ae05-2a77f7584188?expires=1776597300&signature=e01b97c258af1e8310e75abfddae8abf5f0ad1954ef9c338468a5ea4c31fc27d&req=dSYhH859lIJbXfMW1HO4zd7QcIwU8hDGefoJKqCaU%2FJkEuXKencNT02YnK%2BE%0AorV4iYkohQtwSK%2Bm%2FSw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12007978-sisteme-giris&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669747854/859e036fb3f5d0a2adb28743e883/fe1f4fd0-4c03-480c-9010-be7d3922bf7e?expires=1776597300&signature=6ec19a46c8909dff50e3f762e0aed64462d09940a817810fdf8946fb6f6e782e&req=dSYhH856molaXfMW1HO4ze7EFInFPP%2B%2BH28NmvgI%2FZiwkP%2BQC%2F%2Fnw4rhIhQP%0AlgygCPVO7j8rRX6p10I%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669747853/287895097898af264abfc9b95638/41470c8b-55ae-43a1-bded-a3a02cbfbb6d?expires=1776597300&signature=02aecdae44d41efdf5ad7f00b9d04b11458bd484edbff493554efc5d53cdb84f&req=dSYhH856molaWvMW1HO4zQMKtUhPdQwLnCbmSQ%2BSj47leQnveGHrMNo3ke3P%0ADJzMGBivUAokOVqpwLA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008021-genel-gosterge-paneli-dashboard&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744900/bf35ca97ea97f63f13dc468d5658/8544bdbb-ea0d-4640-a450-df2d60b29120?expires=1776597300&signature=1c326ceaf62c34f2b329c927e259d8dc2f1abe8de71b8e6211a9d916604bbedb&req=dSYhH856mYhfWfMW1HO4zQd%2F9suqGkhIy2OzZ%2F1YJ05OX76L6guvi5NWWXHB%0A2DJ4jI6U1GEuwEl2mxk%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744899/e91d8169ab7c6454a6b5563a489c/17bea9c8-9b5d-4e78-83d9-6efa4ec83ab6?expires=1776597300&signature=973c9b4f070b9313dd58e02d40c973c28be391fe4a44dae48e0b8b0d7e6e61bf&req=dSYhH856mYlWUPMW1HO4zYUeN1GPIkloCFiCECUjr5DQ5FM1m0SzquO3xywF%0AeTUcRc0MPzhK%2B26tFfI%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/musteri-temsilcisi-ekranlari/page/cagri-transferi",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/sistem-yoneticisi-ekranlari/page/cagri-analizi-speech-analytics-nedir",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744901/17f31d28927fd0bc3778143eee1b/8c51f5d5-19a6-4306-92d8-7577e647942b?expires=1776597300&signature=10363e1fff72d393711e82a85bbbb3097883e957d511e1cadb7567b917f6b30f&req=dSYhH856mYhfWPMW1HO4zYEIFDcTB7exy0o4fQtqEW99jXfw2LLmSsknt310%0AXq%2BT2%2FZw8%2FV%2FJQDmnRs%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/musteri-temsilcisi-ekranlari/page/degiskenli-ivra-aktarma-tuslama-ile-bilgi-alma",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744905/b20393c76a3bc09fd578ce9a2e03/54eb5027-6f14-4ca0-901c-2dedb64b9757?expires=1776597300&signature=3a02d2d23ad705c7bac3832e4121934d4a52e726047ff50b6fd418479cc51ff8&req=dSYhH856mYhfXPMW1HO4zRmDKon8AVnW14NmlgjbnUQLsOnTUXkCs6dntt0x%0AGDY4ido1YYZTAAEHb88%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744907/7a73c7957be313f558271bff09cf/91319f70-b5c5-475b-952c-47d175e3b24d?expires=1776597300&signature=9930068ff440bb3047a755a1926ce99fa889b374c92d21701e6c32fa2f78cd61&req=dSYhH856mYhfXvMW1HO4zfCMKHBEw90lx415q6dt9iTmbZQh0JfisjfyyDx4%0AWOlAdQqTNKXyWvbQc6M%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744906/70d98c28c4b63edba9df43fa69a2/f1b0e03b-0960-4b07-8091-8b08ac2ec7bc?expires=1776597300&signature=d705f5b44978e8d4c612a04e097e7286a1b03a70a3c45a6e8c63fa880347a521&req=dSYhH856mYhfX%2FMW1HO4zRIBbk%2B1DAlGQRjxFUhsTZVnNagi9II4pRvtQJ6%2B%0As62PDS73aP82mGiz7Jw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744908/fae73dca615a2875d6c434514699/f687d348-abd4-4bcc-9e45-105ba48344f2?expires=1776597300&signature=6363c478d5b0fe4fbc16a99b4dc0c4516a8d3b4d7f80619c0bfa52082f3e43e7&req=dSYhH856mYhfUfMW1HO4zRawmG%2BPn8355sSTuYDv%2Fm1WPantPGb%2BgDRDAVYq%0A8moyabUio%2FkGeDL4DpA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669744909/53e0c39734bdce02c73d06ba3e4e/5502990e-67a1-4a65-910d-ec40f4229520?expires=1776597300&signature=329a42a58a8cc3e270042999897b7d7ba3f1e6f3c3d5585788a93a897e5cac22&req=dSYhH856mYhfUPMW1HO4ze9DnNfWw%2BB%2FyrIzXrdiJsFVeG%2BuQ91FMC8GtRDk%0An6LOfpjLpDaXyHQJE4c%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008008-cagri-modulu-softphone&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Fcollections%2F14438355-supervisor-ekranlari&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12840387-yazili-kanal&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008036-randevu-ve-takvim-yonetimi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008059-kullanici-profili-ve-ayarlari&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/supervizor/page/proje-yonetimi-ornek",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761223/8a9e6f194475ad72775415da7559/PgkqOADDzg0Gbesp-adsiz-tasarim-23.png?expires=1776597300&signature=b243fbcd93d764f0b68ab1ac7bbb79d92590364d4b11fe486112e2f03cc0637d&req=dSYhH854nINdWvMW1HO4zc5kSNyss9kcjadQEhtUHaJTtfqhkR6iIRvVj50D%0ALfU5G5k4sYoKY3IAdAc%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761225/cd1b15d132049f10b238c348bada/8HGkhHg0RgOqd1Pj-adsiz-tasarim-22.png?expires=1776597300&signature=fb9a1c241fa99ce7eaacbb106b088f27d745041f13a2206f6f6e6cb92554da31&req=dSYhH854nINdXPMW1HO4zStk3o9etrKG%2BhYYlDRlXG%2Fn6NqKkffur1de7kx8%0ASiHKFiC4RZqCplbTHII%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761219/35304d58cf34ec3e97d2bd0b70c9/PYABt1ylb6EDpbD7-adsiz-tasarim-24.png?expires=1776597300&signature=986f673d9d29aa2fb6a05c1dab3daa2a090f0b55b2c8337254e756996cb68753&req=dSYhH854nINeUPMW1HO4zalhUcBgO1OVw9EDIfsZU68ptTNKmsG4p0vsZmik%0AKMaAJx04Wr8tEKcV6xA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761233/e5f4ab4cf807da8b0424ac22fcbe/00uxsFB9g6tDaRD9-adsiz-tasarim-25.png?expires=1776597300&signature=045ffb01f27d3780ef50be5eaff9bdb3892ff52c9e33ff1d934369e5d1800d6f&req=dSYhH854nINcWvMW1HO4zaoKeLidSc9qugWwFnJYeuWfkTc2YvQrnCIFga2R%0ADSM0zOorV7oyNCW9XEM%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761251/27d5fe3a15a8a70289db026d9526/ejdbvLs1BqppYxV6-adsiz-tasarim-26.png?expires=1776597300&signature=e4edd5b9402cfb9326017573b76615eabd9d51a422b8a3d502333e43ca38a8ed&req=dSYhH854nINaWPMW1HO4zXzkfilqLKBvwLjoe9odrYJ%2FLoWzevIzdWC4h%2BZf%0AeCcW%2FTtPMdpEliSVhcY%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761227/60c4f412e34cbd7346ec9006f552/FOZNAis4Dg9Q7eE8-adsiz-tasarim-27.png?expires=1776597300&signature=4d99e363ff5893a0e9fd8a756739d248831bbe8da09e6894cb1e74820fed8169&req=dSYhH854nINdXvMW1HO4zbOnXQbeXrqpPlOWkUe%2BFbAoBcJU4XydjnBu0Vq1%0A9chunEeXXDZcsm9zuGQ%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761249/549ec086d5424d3e24ccb4b605c7/CBzpPCcKqdFLMtKu-0725-5.gif?expires=1776597300&signature=db847ca9b0b7eed66a8616dc6151e244ec0d82200252e89770e3aa8f694334f1&req=dSYhH854nINbUPMW1HO4zYBBbp0vEq6LoX9fL2uhkwiXTQhuQ5ioVjVNnKNh%0AiT%2FriL0BfDueOyY1NKI%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761259/5cb68b427fff442b96038dde8165/ZkvVkjgAlEcX3UoL-surukleyerdegis.gif?expires=1776597300&signature=5fad04aac90ef55acef8af1a772aa57ed66dbec6f7a78479331c17c50d34e96a&req=dSYhH854nINaUPMW1HO4zfwKr%2FiHeSM6JIEONuN%2Fa5Sw0Cf99vOrhrrUG4vz%0A8wLY5AVPZmI3UKrCFig%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761289/f86d404c736599bd5a8be48212ed/TOnP0O1TMHLb96gk-excel-secimi.gif?expires=1776597300&signature=dd49836357f0d3267fb77679f54e97d240da5a92f7e2efe98d717fb1cec705b2&req=dSYhH854nINXUPMW1HO4zQXDuDOY16qU7abyaoX7vatoXUkYsM7Hxx4P%2FAOy%0AC8kLNi3fZIWRRTeBtDI%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761354/a8732086aaac55dc7d9add20b707/47BnBJB9523BHLi8-sureklebirak.gif?expires=1776597300&signature=d0443e2806051ffc846acfbaeeee1b1a748e32f57a1cb2563e6185f13434e26c&req=dSYhH854nIJaXfMW1HO4zeF%2FeMynng%2BAm%2F3%2F8kr%2BjgbFMb0DYaAHL9W%2Fg%2BUs%0AODKQxhXuQTEnB8FKi%2Bo%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761348/9572967ea16471a5f078da606b1d/3a4ceogEKuXpHOdU-sayfaliyapi.gif?expires=1776597300&signature=7283c931da553b511ab3646fad2b1e5fd29836506d6737b8f5d2c31ca48de74d&req=dSYhH854nIJbUfMW1HO4zSJni9MOs7pp2mOt0bULIxCEqGVEeRtA82ANifr2%0AB57FTwB2lhVQBVb25i8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761252/529a90963df661507ebb74506b0c/SA1ID4HARz5fEWQm-veribirlestirme.gif?expires=1776597300&signature=3dcde97f53013726ccd8ffc32021f029c0f39c8d93a1f80362636ab562acd8ce&req=dSYhH854nINaW%2FMW1HO4zbgkt9EQr3jMcvygNhJH2%2FVRzN0cKuLs88HB7e0P%0AZRUn84ENU2J%2FIBehFFE%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761272/def94a3b51ec0c617c841df56363/8mLth5cE2ov7i0AN-hesaplama.gif?expires=1776597300&signature=ddbbabe89ec136f41ff6c5d24a2827fbcf5f7ff53a64e63bf1016f4de3788513&req=dSYhH854nINYW%2FMW1HO4zVNK36nwivdVTP85dTZTxj1oT%2BpS2CnoLs1yy6ws%0A7wSAMBJ26QdOYWgIKuo%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761266/122ea47486cf6563030dd33e3cd2/JckN4GOzkDFykKhn-kaydetme.gif?expires=1776597300&signature=cafe7eadbad99ccc6d7a0d15e5af924058d20d992a42197745f883d799ac45b3&req=dSYhH854nINZX%2FMW1HO4zUZejCS7YiI8IFa8StUkAIlmVQ7k%2F3D1EQh8sR7g%0AE3wKB1p0xpARJfL0u68%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761226/59d87d6cb930ace110ba43928d12/1fF1Ft5f6cIWSAfv-adsiz-tasarim-17.png?expires=1776597300&signature=2e2af35db3b2deb4629c5f0415d051ebe9fb2a5bfce674e3c0221ec24a6b58d9&req=dSYhH854nINdX%2FMW1HO4zX1YKbk03aF%2BPTkTopjbpX7mKP4lVkVzyE2ttriC%0AiHdi10Ogb6T9kK28Kqc%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761215/d4328bb5568e47934cb516e27d9d/D0kF3Xyj39sNngeb-adsiz-tasarim-18.png?expires=1776597300&signature=44e577a928f9951685ede1ae7e85a2c8e0d4490706f088050007d416974bd443&req=dSYhH854nINeXPMW1HO4zR8i6ApETVgJrzQ0CFb4Q%2BAaqnNWUZuJqAGZ3Wt6%0Aeq4amazaYnGVf1lYEqg%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761220/eb715d307d8c3054098f26a9e6b1/eCe9TJqFmLfuyKZy-adsiz-tasarim-19.png?expires=1776597300&signature=bc2a69faccca87d8dc88156ac8477f34c64a4109a327c3325aa9f984ce2f77e6&req=dSYhH854nINdWfMW1HO4zS2XFgBNmRbo13adF41Pxo%2Bko4Gi%2FGQR9vYNjeWI%0AKHdo6lQUAIL72mz4V74%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761230/cc745f150445501cc83875fd3e78/5DXk9PjHF7Qh6cXb-adsiz-tasarim-21.png?expires=1776597300&signature=0db05e6e324aaf98b1ccc2dc9c9006c0921bf4d29dc8efcb6239c45a0fb212e4&req=dSYhH854nINcWfMW1HO4zdpplJk9CVd%2Fq0cNonZzMInI3Bg70HblW%2BAULu1n%0A430tkNRkj8n2ovpa%2Fco%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761394/9e9b704d6337893ff97f6ef778bd/aacw1WqJYbPGsw6X-veri-guncelleme.gif?expires=1776597300&signature=6354e52098b7ce175fe4a54d99e9fa81d804688ff37b8770bae948215a3b69cc&req=dSYhH854nIJWXfMW1HO4zd6aQlUBXbsbblVwHrcrGaTjYLTcbD1dqLbl%2Bm7F%0AIZdBYdfvmN8YWExy%2By8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761255/ba9a469f591645bed08ec7416e1e/tcov2Xy0BIiNKD5V-temsilciatama-1.gif?expires=1776597300&signature=3d29766af50a4b19668414859ad3c4f337e285d5aea9d1a6068411e3237493b7&req=dSYhH854nINaXPMW1HO4zeX%2BNT4jC6nmca8O2uFfWom9QJmkUK2u2hI71Hqg%0AIz9ocN2%2FG5yMs4Ij14I%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/supervizor/page/veri-yonetimi-guncelleme",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761293/02d5170884ecc5dce60c1238cc20/rLy0nPLAFOEI1nf0-topluislemler-sonuckodu.gif?expires=1776597300&signature=7342258b47b4313e14fc887f18be3075cc7742a3d590897f6ac51c500b9b7cdb&req=dSYhH854nINWWvMW1HO4zWhz9s4GXbS8mERnOgC4xzebbSnaEnCYHnJVCxxn%0AsZo465LyFMbwTt59XXw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669761250/d17693842bc6e4a13004cdef1fca/orZx26EWIVhrNlZ4-topluislemler-akrifpasif.gif?expires=1776597300&signature=cf70ae18945468dc7190b9ed0e9ced072794cefcefa5a78cebe9e5e17cdeb214&req=dSYhH854nINaWfMW1HO4zZwrGaCBtIguaFSm34U%2FaUIM2x%2Bb%2BRbZV9sC8xAr%0APD3ACSfZ2TTw90iCamA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008084-crm-veri-yonetim-ve-musteri-islemleri-ekrani&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008134-randevular-gorusme-planlama-ve-takip-paneli&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008126-cagri-izleme-anlik-cagri-durumu-takibi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764925/ca6994c155aa1ec9a9e97d3f524b/5e3acf8e-13e2-40fc-ad9c-0890a9cd96b4?expires=1776597300&signature=b246b17bb69bd72d9feb58b136dda6a55d8dcc3ee4009435a53a0e8ef7c9f8f5&req=dSYhH854mYhdXPMW1HO4zTdURC6OVYAk5pzmPUWGmI%2F1ABEb9qvBldElHDFK%0Ab2IHAbg400DMx2puEIw%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764922/ecaf20aac3c437f2cf81bd64c5da/e2f13c24-39b5-49a8-a35b-c74feac3dd86?expires=1776597300&signature=367a9e13680eb3829933092aedd375488517481359951a3657f869932d65199c&req=dSYhH854mYhdW%2FMW1HO4zabbTsRgGBCNF9IfyrVSN2Th0b5aO0Zg4IAVK4uF%0AFteRzxU54n%2FFLR11SCA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764924/9ddaedfec5da54c45240085df701/80fa8d6c-25b1-42a5-80ae-992f22375d5d?expires=1776597300&signature=c70880995bc51042c1a33c6419fd1549ff68764ec53097875ef0fffe40dac585&req=dSYhH854mYhdXfMW1HO4zSJXEkr1vQgOfKPrG7BA%2BxagmjkufY22qIOOjpf1%0APqNzsXPTt4aixwGmTFA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764935/3b4ea81d7d8c11890eb802fc7874/fa3202cc-c4d1-4d26-b6d2-210be6b62105?expires=1776597300&signature=73a9583cb46a71df83980d9049f792d986e3e1dd6f9be3b9fe17aab4400bc6c8&req=dSYhH854mYhcXPMW1HO4zSLDaJrsfkjY2z6O22OAawvNpL6HUKzDqNlPnLwR%0A87lal0%2BrqSJVST1N1WY%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764934/e1065e57f63980b65e6267f11a86/d684b838-e99c-4480-b8c5-ccc6773daca8?expires=1776597300&signature=24f839751b5c4f78fc1337bc57c52a88caebd76afb609e4f8234171631132c74&req=dSYhH854mYhcXfMW1HO4zYHBr8hmy5uFKPftehkmCt3Ow8aJr%2FttSDTBV%2BRZ%0AewHwWDaac04qeX8lFws%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764932/aa2e7b2d3e7d9fb0e160fbe88078/ff538eaf-dab7-437f-81ab-edf9145ea6db?expires=1776597300&signature=75c001567f56f975ab41bf2bf21a645a4b8abf91dcac05d461aac62480e3000a&req=dSYhH854mYhcW%2FMW1HO4zfWIiJcgPqrukWOPOsUnZboX3rfrvLN2HOOuILxU%0ArLxPN5mT1IJu5%2FfzBFQ%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764929/c5dbfd771ea2a1e0d7d8a5603a1b/24bb82cf-8bfe-4fd5-878c-1eb2f13993de?expires=1776597300&signature=cf7ed6a697c7883148b98f569e59970034bb5464e73c8a3ce688d8f7252b4627&req=dSYhH854mYhdUPMW1HO4zW%2FZM1ztxxTdx%2BGC77SC%2FeWoMBs3JMuN%2FHn8ZqXz%0AnQYUuwyt9jX%2BfrCwI5k%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764933/13b646a65954fd8591816629e9ef/6367db11-d219-48ca-b250-215dcee05208?expires=1776597300&signature=2a1dcdf9774e5cf3348466289378748245558acf93528d41348a623907c4d01a&req=dSYhH854mYhcWvMW1HO4zfEViV4Irva9bqAJZX7FOov2q8sWtTwKtAkOrP53%0A6CH0ERtxquxPBIpvs20%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.whatsapp.com/legal/business-policy/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764930/fc72334004736959a9b6a4314183/67a23319-9d0a-4c8e-bb79-69e7aa250055?expires=1776597300&signature=cb8852a0e56c9ace79d1ca1f4f5372a19284677dd6bcfeeb60e67088600f820a&req=dSYhH854mYhcWfMW1HO4zZ985VC1rwuJrn7Wh5nmvhMI6Skng7IlnOzFiCob%0A9EeDO2D41V19kbYu5DE%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764928/8a231c2f3a6c731a9fca32171ede/5e3bf5f2-7802-4776-827c-2ac35d7bdb9e?expires=1776597300&signature=fc7b843542ca4efa1c00673c188304d23a999a52ae9bee988e43bec33a265be2&req=dSYhH854mYhdUfMW1HO4zcIEPnFmYAijk4sOMULYS2Crd5KtiH3E4pIXc7Ih%0AjPOWXydDP6y4QRkTGw0%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764931/59097ae496c39beaa241a7dd8c53/cf727deb-5e06-4024-8c42-a1dca68f4bff?expires=1776597300&signature=f05020f96dfe85262e286af5fba054097c28f06022d7ecee4b68959d347468d7&req=dSYhH854mYhcWPMW1HO4zRSCxs7WQIv4fnRsorsdrGbD61POtXOr4Y0V0hsD%0Ae4QPckmR8ziXkXre%2Fj8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1669764937/ae41768fcdd77d6ecd4c5802e1cc/c4648e67-b2e7-4ddb-8eab-0e332094212b?expires=1776597300&signature=40e19fd017a124660b97b2c344fb7313454e620f35bf1409276c28decc4f286f&req=dSYhH854mYhcXvMW1HO4zQFTXiBcc11AkPvwtmezCdChY%2F1Bd25naiUkzBQ3%0APh%2F%2BOyiVfON3FCEsT3g%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008105-crm-musteri-karti-detayi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/musteri-temsilcisi-ekranlari/chapter/genel-gosterge-paneli-dashboard",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008116-temsilciler-agent-performans-ve-durum-takibi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008121-wallboard-canli-performans-gosterge-paneli&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1740076597/45052055c3d0cde83a070ab2ce10/Ekran+Resmi+2025-09-23+17_38_52.png?expires=1776597300&signature=6c8c8912c8a6dac5624856cc660ac48faf03ae9b971fdcfe04bffe1fae248d12&req=dScjFsl5m4RWXvMW1HO4zV2aveBUxGZ0bCtx3QnLJs7TLpLaNp5JW9TTh9OA%0AK0Ed6OSWQf%2B5Xc6d%2BVM%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1740077082/c6ecfcb321300c4626c65a806097/Ekran+Resmi+2025-09-23+17_38_43.png?expires=1776597300&signature=4e3a33a8bec00a7b33669a4cce1ec149e3f73c41e0654359cf8a67cd45312e02&req=dScjFsl5moFXW%2FMW1HO4zcJNG9UHQlEQ68xnHE1Ld6K6TWcXYtV6VVWpXcli%0Apf8sSYOyRqOI6uTOnvU%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12383844-gorevler-ekrani&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703072432/5a54b2254450a3553ea83e79a34c/11.png?expires=1776597300&signature=5a35c6bcfb429aa82b7faeaac0d620a2bbc23a04a515020ff73ec7de307c450b&req=dScnFcl5n4VcW%2FMW1HO4zXdqNGDQsGwbSXdpuXWBuHDHDWlsVOVI0j0%2FyRma%0AfbSX9lmIMspnQ5YBFmU%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703072826/d96494bdcd73b5275798a52b61c1/22.png?expires=1776597300&signature=e03143efaffda674ffa53128e2405b3c65893d3e7a3d3994fc0aa92b831ecdb7&req=dScnFcl5n4ldX%2FMW1HO4zWs7UQkJehfj5whVytm4RcE6vQCcb%2BUDM%2FbUWZmS%0ApDGptGieAvQwMmjeAQQ%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703073464/e2d7e0c7bbd708bce98d10b53f6a/33.png?expires=1776597300&signature=0c40af9872dca5d350fe513b04c1c6657257ae628497370b20555a4d936a25b8&req=dScnFcl5noVZXfMW1HO4zQS%2FBJS4FOEmPDGhNkjaumHn%2FmA516yWtlTarpoO%0AihPGlMZrfyGmvQ%2BIQvQ%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703073727/8c4b76c5e9493172c5cf3bc9011d/44.png?expires=1776597300&signature=c6c4ebd9a23f67740a9153c15369f08f0421da4623f401d9df825f3374043727&req=dScnFcl5noZdXvMW1HO4zXmK7U3uZH0CdQCQxfYA5runx4Dn6Zv2CDNgY2hi%0Av1oGUYIlzj8Xab8hEgs%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703074134/f20af7cdb5c2a2beeec484de598c/55.png?expires=1776597300&signature=71b89066c35929eb034132067f11f187eb1c03972f4c0fc7eac760fdcaedbe20&req=dScnFcl5mYBcXfMW1HO4zdkF9FUbUVjk%2FwZAI4ZxbCQcQfs3h8gLWF1AOHgx%0AZQmPtc0ewKSyhxNEixs%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1703074417/42ff95b2f28b1634a1e3a12172cf/66.png?expires=1776597300&signature=15dab9bb8d10573a391b24cee84f90791261fe69c4024c81de5c72e761c3d543&req=dScnFcl5mYVeXvMW1HO4zRG%2FDYH5GyMaFwtmQTi0fxSK1Ar8J1ByaL8bYM2r%0A3sw%2FSbzI3yYHSe8hvI4%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12130439-voyce-ai-asistan-vai&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008142-cagri-kayitlari-ses-kayitlarini-dinleme-ve-indirme&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://kb.voyce.cc/books/supervizor-ekranlari/page/ayarlar",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008174-otomatik-arama-arama-kampanyalari&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12008147-raporlar-operasyonel-ve-performans-raporlari&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Fcollections%2F14723920-sistem-yoneticisi-ekranlari&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1740158449/e6e5d16f714fcfa773859f9417f3/Ekran+Resmi+2025-09-23+18_13_59.png?expires=1776597300&signature=ed22daa82d100432d88cfa16c449015acd99401b5c4fcef265bf043bb766a772&req=dScjFsh7lYVbUPMW1HO4zfq72dSmH6FQ1tZiTt%2FtFM%2Bx9%2FSoXND9isFD11b2%0AUhxcZb%2B%2F9F77qf1A0tE%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12383953-e-posta-modulu-kullanim&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179896952/4fb10c8f5974aa612c9a3885d426/Resim3.png?expires=1776597300&signature=6ab328f328280c79a5b4b250ff76cae42e9e9eeacb500e2e3d19400ee8a6da01&req=diEgH8F3m4haW%2FMW1HO4zbrnT4jTAIPwz4Zlhh16jbc0oCq7pWA3nDX75A7I%0A3kTOXMwfuoIpdP0IL38%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179901907/87780fbdd1eb61d857f876c35a88/Resim4.png?expires=1776597300&signature=d1e329f44714357092422d8ce33bdec52a44899aed28b0a6e4ce7be5ecdd5532&req=diEgH8B%2BnIhfXvMW1HO4zdkoldPQ4%2BcaZBgBqZy%2BoFQ0vyvezAJ0yj8ugktr%0ArhnM00eDCJdkAsuAwG8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179904006/d4e2fdc98811837345682a4e44aa/Resim5.png?expires=1776597300&signature=f6d65974bb40ad541a6027b3504fb9d5ad01f586f75e56c8418ec3cc44ae3367&req=diEgH8B%2BmYFfX%2FMW1HO4zWzQBxq8fsVqTOy9rjrb4SZad7JYtvIHvcscb8fM%0A1FwOSAtzIYGo5a%2Fo5SI%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179906987/ae71e6694c569b3a2f4b284b7010/Resim6.png?expires=1776597300&signature=ecd6b051a9c3faa2d6ed3fd5c9571d3386887a11a1208b97d10496a0d0f7ffa7&req=diEgH8B%2Bm4hXXvMW1HO4zVfUvrAhgEey1abj314HSVGOhHJm3LoyMCL7nsF1%0AHo1hClBXQNx%2BHPeQUjc%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179909056/b187a305c47e04cac29b4f99ba49/Resim7.png?expires=1776597300&signature=ec89206db9e53311ea55f094ba8e277c49782c071566eafaab74861618b5dad4&req=diEgH8B%2BlIFaX%2FMW1HO4zUD1I3SBT%2B07YB3bxc7zQEVc20kmaXi%2B4%2Fe4%2FuuR%0ACP79VVyrfKyQEBGiCNs%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179911138/1588ef3b3e8a62d1f690f7712a11/Resim8.png?expires=1776597300&signature=c3c1b8946180870fdcaaecc67ff0794c4b6f7f1e317136e6b876d2ccbbc0b84d&req=diEgH8B%2FnIBcUfMW1HO4zZWyTHNBnBrn2gv7xTDUu1QiklDeq1zNze8YZYzj%0ARCxiKUykil0TXRnwqJk%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179914674/19237d77e302dffe12ae86c520f8/Resim9.png?expires=1776597300&signature=3da915bf213a47dc8b7d2a3ec0d2b43bd6648198948684c7e33ee7daf7a5e4af&req=diEgH8B%2FmYdYXfMW1HO4zYbt4h1BVTjBYn8WSv4WTTpmN%2ByAKBSaSUIKr7ks%0AhcGMBWHun6DCZZdBpmM%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2186466355/c1ccf2f8a497c2b28365e0158d63/image.png?expires=1776597300&signature=a06a09f85835b215eb30f6b27b66786b240284b86dcbf72bbac80566fb4c67a9&req=diEvEM14m4JaXPMW1HO4zQQAUlCR5RYUA8Iwgb7DfmeCkIugm%2F0NOBk%2BYlzt%0AnL%2FC%2Fbktoa8H05ghfcM%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2179918669/ab0849df49bd7bfa03aca568d05a/Resim10.png?expires=1776597300&signature=b4521bbfce9a42df6eca6b3a7b36aaa6fb62c1ef39401e62118d8da60a1dfdfd&req=diEgH8B%2FlYdZUPMW1HO4zShXV9kbEBI3RaUR0tZWDVpfhgAOJmT81SLOs4Hy%0AhT1h9sTj8yVOl01%2FbCk%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F14125239-egitim-modulu&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2039581816/ad9ac555e24ab6dedfad3694413e/sablonfinall.gif?expires=1776597300&signature=dd471c324c7d6e1d292661f63975de11eb3c58d1e864bc51c1e7dea696e5ad9d&req=diAkH8x2nIleX%2FMW1HO4zXLmwqfGNK2BQ0vpG%2BBieGbqUagwB8htj1kTp6v2%0AlF%2Bzq%2F7I5f8Z7g%2BXaMA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1964610678/b21605da235bc3ef2833575a7c34/voyce_sms_pattern.xlsx?expires=1776708000&signature=35ad7ffb433d56b4128eb6bfc2d182bcdd055ed3d898ee76c22f2308fa44d83a&req=dSkhEs9%2FnYdYUfMW3Hu4gUv1sFZ%2FmUOPwP8bWQ6zA0hN7zpPZCTUyi2n1fgm%0AIg%3D%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F13436607-toplu-gonderim-modulu&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2102812012/db80e10fc0f546ce641064680158/dashboardolustur.gif?expires=1776597300&signature=289922594954b11550fd2bd8cc872f96022b980356e5d2512c11f94564e847a0&req=diEnFMF%2Fn4FeW%2FMW1HO4zaa%2BgJmYIOsqyU2m%2BXEH3WEuRA7wtb5w4ySwmptS%0A98KKTT5Nf64DRjx2CUc%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2102814126/1cc232efa3a123340e1f292e9366/tamekran.png?expires=1776597300&signature=079d9214f1f0efe23082a60f08c32e859c7d94da0cecafe5d7195820830d0a62&req=diEnFMF%2FmYBdX%2FMW1HO4zVp5aauexCWJQdhGOdZtBAM5LH4Yj6UqpYiH%2Bw6c%0AXgtw0pNvVLmkjKBvJm0%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2102816710/0e05b83df0018f26d72faf664589/ayarlar.png?expires=1776597300&signature=353f406b06329cfdc128d7125c87ca1197b03a58b96805dc51aa8c581e25d16b&req=diEnFMF%2Fm4ZeWfMW1HO4zVrSo47KVdWzGMV4R7zfy%2FtX0xn4upAOTEjtvvrQ%0ACnV9lubDLuaShVGp3UA%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108499712/e6c987e8a03753731ce32fd0c7fd/eksecenekler.png?expires=1776597300&signature=911a27b60f223025d73d8d46bc63a1fd7b624df082fd3b7b7bbc3d311a8e73cb&req=diEnHs13lIZeW%2FMW1HO4zS73vlwFrEKKsZBRZl%2B0ktK%2FwAhbaVW6BsWqMogx%0APXUsbZ7x9tJPnTFZtow%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2155784889/8a673ca324b49d80a9573d0dbcaf/image.png?expires=1776597300&signature=b4b3f77bf99e47079c9c1c49e60b5154cdf81a49f355bd1ea39a5a3b1c5bf132&req=diEiE852mYlXUPMW1HO4zZViDQM38cSYXvVpxaI588d1K8HSNuZXASTPpS3t%0AJwZkLPNdVsfNtXOmtJ8%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108506578/1abb09355e45d13566de3ad44184/ayarlar2.png?expires=1776597300&signature=40e37928a927ea505fd78f4a51f1a58654bab39917d6cd8aeb7117454a866e7f&req=diEnHsx%2Bm4RYUfMW1HO4zcE1xHl%2FP6555sIrS77kXki2LqkTY6bWWyJRPaKW%0AjKPva3roqStY5tAg8YM%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108509322/25a1c4602c569c37b233fcaff07f/ekle.png?expires=1776597300&signature=8e8da5173b98db5c08fdd36b477d18e1cde802117e30d8e4cb47640931704420&req=diEnHsx%2BlIJdW%2FMW1HO4zWNJ5J3qs6XhfcMxoWSyxbwY%2BvEphYkP6M7BZc1I%0ALqoZ7YTrjOH6FtqRrxE%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108515601/724d4977741bc98d4eacafdca217/filtreler.gif?expires=1776597300&signature=bbb5a89d73b49ddfce4ff176bfb7b794edf238901eb8f951725deeb49c4b2d8f&req=diEnHsx%2FmIdfWPMW1HO4zTfTOrqNtwmye9Zstz%2FnNBjBNgxKXyMCS9Kwytn5%0A9oDWtgDI3b6Wbay6BA4%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108521103/883f5ba0f5c70eafcd3f6815eafe/promptlar.gif?expires=1776597300&signature=3e6acf350e2f1a08f26c2f42bccde55e9d70e925c8ba6f6cfa20a866ba131697&req=diEnHsx8nIBfWvMW1HO4zRn%2BPKbl3HEcOxxObnrbwGwYYuV5hNx%2BiT4QZSBa%0A7rFrHiMqO5TMg4r1G8o%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108530693/83bf923a5c116dd064968dd6a524/ak%C4%B1%C5%9F.png?expires=1776597300&signature=f3314979f1cfba2bdb46ba5c5306c027cd082df03e1061169dd3f38095ffd5bc&req=diEnHsx9nYdWWvMW1HO4zexe8cXu%2BRkxMfnpjyFH%2BNpGkfRm8QchBD7gvloY%0AUOZ5VHLUxDn8V5H97WU%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108538146/8ab475f5fdb2ab1f9a10e99b62e2/dugum_ekle_bagla.gif?expires=1776597300&signature=a0e640927c10fdb098b5e452ff4409c4e1070677c9e553c6b7fcfb4ec205daea&req=diEnHsx9lYBbX%2FMW1HO4zfiBA8JMSrzqaTYyDo7lhe4SMBDJxulQDO3cV1cS%0AjpQoH2Q2PBE3VKYg74w%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108541091/55354412dffa4028938cfa6c505a/ak%C4%B1%C5%9Fdiyagram%C4%B1olu%C5%9Fturma%C3%B6rne%C4%9Fi.png?expires=1776597300&signature=5bf110137866f01ded31949e5809182bd9a7f6b9a038533b97b4dd22effb1bf2&req=diEnHsx6nIFWWPMW1HO4zUs%2FkpQ%2BSAUTpy3bVLR%2FkjyLC2pK4c9e18C71KlL%0A9VuZegFmGeGXkU3v%2F5o%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108543794/415867d54b7b34ce32d80e6cff1f/anahtarkelimeler.gif?expires=1776597300&signature=c0ce5a123570ea9bca68538fb45e5924099795fba9f55a04ae8efa14732bdb98&req=diEnHsx6noZWXfMW1HO4zSicKEYU%2Fc%2BCMoot7ms7TApw9seVFw7mhPyfZ8wm%0AznhNFCaDEycfe8EkfX0%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108547375/8285123de6f42b92e6092eb0a0b0/bilesenekleozellestir.gif?expires=1776597300&signature=ba00a2236e5b49e18e5bd445c7e49902af587ae0e7a33d42072abfb9ba0dccd0&req=diEnHsx6moJYXPMW1HO4zXysrHU%2BXxkN9lULTc0rJmWDZOUNHg1bXIqCzhFh%0ABTvhkk6lrZLIZIBtICo%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108549724/dbcfcc60ba112c0df95a17c7a4ba/bilesenler.gif?expires=1776597300&signature=78e390885dbdb9bab1bc828d4c78350f298c7598bcab2627c94b303a534f3eb7&req=diEnHsx6lIZdXfMW1HO4zfufhmmNFxmuz0dPMOoaSOuQ8c1DE3BolzgwNu99%0AqE%2FEuQfS%2FC2yh3FC4bo%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108553965/23cb301a19b58e0d15caa21ba12c/temelanalizler.gif?expires=1776597300&signature=3bd20d0456579df0a2195c546dba77b52c0870044f7609e29fb118c638848bce&req=diEnHsx7nohZXPMW1HO4zTSew514AxA4rIAY83OOYZBdp19PCgr6rPfdaNyC%0Ad5HFi8NPex8sk9TiJ6Y%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2166884521/af78fe8b02b14644143f1da377d8/gelismisanalizler.gif?expires=1776597300&signature=4dbfdaf3214c6434d48e80c96fee54f20ab19c8e2f416cccd7eb75eca1eb1754&req=diEhEMF2mYRdWPMW1HO4zWK64vsxvNyYvxmU6tsjK3NHtpbVIMTWaCJLWqyX%0A4Gsf1aICfOyX1jICjxI%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108562897/91542b5cd11c428ca035f74ca424/gelismisanalizanahtarkelime.gif?expires=1776597300&signature=c5990ffde3098a3fa1fe22931cbc147a8307da76d4b8c661ad5c40a7a52522d7&req=diEnHsx4n4lWXvMW1HO4zb1%2BXF07jgrpL1LHePv%2F6lZhruyOCzSqZqkogpBc%0ANKZfBaBDUfuExWdVObU%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/2108566436/1c7913b50232e5ae3251d98b2496/aianalizler.gif?expires=1776597300&signature=498a1d0b730f901aa926e3d343b096cd3c7c2886781f13a3f4b57343cc4fd06c&req=diEnHsx4m4VcX%2FMW1HO4zXVFLZoYM%2BsvPiIJ9kLYPh4OlVJX5tYwbiQNhtO6%0AE21wWGQyn85AO%2F9fQrk%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12584421-pano-cagri-analizi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12840466-yazili-kanal-widget-konfigurasyonu&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://downloads.intercomcdn.com/i/o/wowo4v99/1753337681/db90fa14aead74226ab58b37ddeb/Ekran%2BResmi%2B2025-09-22%2B11_04_50.png?expires=1776597300&signature=4cb791dd6282d11139cb16e937973954e4c4d422c941d9d33aafe00be736fd5b&req=dSciFcp9modXWPMW1HO4zXRV2mq0ydCXrY04vuQXm4Xwd97CZmtJi6KVhLFn%0Ad0c1Xv0lpntWgLJSMQs%3D%0A",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12461248-ayarlar&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://api.crm.com/siparis/sorgula",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12100801-ivr-dinamik-akis-tasarimi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12034570-sistem-yonetimi&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.intercom.com/intercom-link?company=Voyce&solution=customer-support&utm_campaign=intercom-link&utm_content=We+run+on+Intercom&utm_medium=help-center&utm_referrer=https%3A%2F%2Fkb.voyce.cc%2Ftr%2Farticles%2F12076817-operasyonel-yonetim&utm_source=desktop-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/?trk=guest_homepage-basic_nav-header-logo",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content?trk=guest_homepage-basic_guest_nav_menu_topContent",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/pub/dir/+/+?trk=guest_homepage-basic_guest_nav_menu_people",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/search?trk=guest_homepage-basic_guest_nav_menu_learning",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/search?trk=guest_homepage-basic_guest_nav_menu_jobs",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/games?trk=guest_homepage-basic_guest_nav_menu_games",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/signup?trk=guest_homepage-basic_nav-header-join",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/login?fromSignIn=true&trk=guest_homepage-basic_nav-header-signin",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/login",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/signup",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/productivity/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/finance/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/soft-skills-emotional-intelligence/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/project-management/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/education/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/technology/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/leadership/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/ecommerce/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/engineering-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/business-development-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/finance-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/administrative-assistant-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/retail-associate-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/customer-service-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/operations-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/information-technology-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/marketing-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/human-resources-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/healthcare-services-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/sales-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/program-and-project-management-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/accounting-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/arts-and-design-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/community-and-social-services-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/consulting-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/education-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/entrepreneurship-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/legal-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/media-and-communications-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/military-and-protective-services-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/product-management-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/purchasing-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/quality-assurance-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/real-estate-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/research-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/support-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/administrative-jobs-istanbul?trk=homepage-basic_suggested-search",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/talent/post-a-job?trk=homepage-basic_talent-finder-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/e-commerce-platforms",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/customer-relationship-management-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/human-resources-management-systems",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/recruiting-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/sales-intelligence-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/project-management-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/help-desk-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/social-networking-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/categories/desktop-publishing-software",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products/home",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/patches",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/zip",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/minisudoku",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/queens",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/tango",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/pinpoint",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://lnkd.in/crossclimb",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/pub/dir/+/+?trk=homepage-basic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/artificial-intelligence-for-business-29605417?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/business-analysis-and-strategy?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/business-software-and-tools?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/career-development-5?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/customer-service-3?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/diversity-equity-and-inclusion-dei?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/finance-and-accounting?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/human-resources-3?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/leadership-and-management?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/marketing-2?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/professional-development?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/project-management?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/sales-3?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/small-business-and-entrepreneurship?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/training-and-education?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/aec?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/animation-and-illustration?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/audio-and-music?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/graphic-design?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/motion-graphics-and-vfx?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/photography-2?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/product-and-manufacturing?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/user-experience?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/2015-54?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/visualization-and-real-time?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/web-design?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/artificial-intelligence?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/cloud-computing-5?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/security-3?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/data-science?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/database-management?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/devops?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/hardware?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/it-help-desk-5?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/mobile-development?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/network-and-system-administration?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/software-development?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/web-development?trk=homepage-basic_learning-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/pub/dir/+/+?trk=homepage-basic_brand-discovery_intent-module-firstBtn",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/jobs-in-istanbul?trk=homepage-basic_brand-discovery_intent-module-secondBtn",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/search?trk=homepage-basic_brand-discovery_intent-module-thirdBtn",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/signup?trk=homepage-basic_join-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/signup?trk=guest_homepage-basic_directory",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/help/linkedin?lang=en&trk=homepage-basic_directory_helpCenterUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://about.linkedin.com/?trk=homepage-basic_directory_aboutUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://press.linkedin.com/?trk=homepage-basic_directory_pressMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://blog.linkedin.com/?trk=homepage-basic_directory_blogMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/company/linkedin/jobs?trk=homepage-basic_directory_careersUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://developer.linkedin.com/?trk=homepage-basic_directory_developerMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/?trk=homepage-basic_directory_learningHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs?trk=homepage-basic_directory_jobsHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/games?trk=homepage-basic_directory_gameHubUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://members.linkedin.com/apps?trk=homepage-basic_directory_mobileMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/services?trk=homepage-basic_directory_servicesHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/products?trk=homepage-basic_directory_productsHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/hubs/top-companies/?trk=homepage-basic_directory_topCompaniesHubHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/hubs/top-startups/?trk=homepage-basic_directory_topStartupsHubHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/hubs/top-colleges/?trk=homepage-basic_directory_topCollegesHubHomeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://business.linkedin.com/talent-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-basic_directory_talentSolutionsMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://business.linkedin.com/marketing-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-basic_directory_marketingSolutionsMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://business.linkedin.com/sales-solutions?src=li-footer&utm_source=linkedin&utm_medium=footer&trk=homepage-basic_directory_salesSolutionsMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://learning.linkedin.com/?src=li-footer&trk=homepage-basic_directory_learningMicrositeUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/people?trk=homepage-basic_directory_peopleDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/jobs?trk=homepage-basic_directory_jobSearchDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/companies?trk=homepage-basic_directory_companyDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/featured?trk=homepage-basic_directory_featuredDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/learning?trk=homepage-basic_directory_learningDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/posts?trk=homepage-basic_directory_postsDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/articles?trk=homepage-basic_directory_articlesDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/schools?trk=homepage-basic_directory_schoolsDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/news?trk=homepage-basic_directory_newsDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/newsletters?trk=homepage-basic_directory_newslettersDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/services?trk=homepage-basic_directory_servicesDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/products?trk=homepage-basic_directory_productsDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/advice?trk=homepage-basic_directory_adviceDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/directory/people-search?trk=homepage-basic_directory_peopleSearchDirectoryUrl",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://about.linkedin.com/?trk=homepage-basic_footer-about",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/accessibility?trk=homepage-basic_footer-accessibility",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/user-agreement?trk=homepage-basic_footer-user-agreement",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/privacy-policy?trk=homepage-basic_footer-privacy-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/cookie-policy?trk=homepage-basic_footer-cookie-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/copyright-policy?trk=homepage-basic_footer-copyright-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://brand.linkedin.com/policies?trk=homepage-basic_footer-brand-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/psettings/guest-controls?trk=homepage-basic_footer-guest-controls",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/professional-community-policies?trk=homepage-basic_footer-community-guide",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/?trk=keyword-landing-homepage_nav-header-logo",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content?trk=keyword-landing-homepage_guest_nav_menu_topContent",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/pub/dir/+/+?trk=keyword-landing-homepage_guest_nav_menu_people",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/search?trk=keyword-landing-homepage_guest_nav_menu_learning",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/jobs/search?trk=keyword-landing-homepage_guest_nav_menu_jobs",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/games?trk=keyword-landing-homepage_guest_nav_menu_games",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=%2Ftop-content%3Ftrk%3Dorganization_guest_guest_nav_menu_topContent&trk=keyword-landing-homepage_nav-header-join",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/uas/login?session_redirect=%2Ftop-content%3Ftrk%3Dorganization_guest_guest_nav_menu_topContent&fromSignIn=true&trk=keyword-landing-homepage_nav-header-signin",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/training-development/mindset-development-tips/tips-for-managing-stressors-with-mental-toughness/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/communication/managing-challenging-conversations/how-to-navigate-difficult-conversations-for-personal-growth/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/top-emerging-ai-use-cases-and-their-capabilities/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/employee-experience/mental-health-in-workplaces/how-leaders-foster-psychological-safety/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/building-professional-credibility/tips-for-curating-a-professional-network/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/career-path-development/tips-for-strategic-career-planning/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/mentorship-coaching/how-to-find-the-right-mentor-for-your-career/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/resume-tips/tips-for-optimizing-your-linkedin-profile/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/leadership/strategic-decision-making/how-to-set-priorities-as-a-leader/?trk=keyword-landing-homepage_l3_topic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/career-advancement-tips/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/leadership/team-performance-and-morale/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/innovation/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/innovation/ai-trends-and-innovations/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/training-development/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/training-development/mindset-development-tips/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/leadership/balancing-leadership-responsibilities/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/career/networking-for-professionals/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/productivity/workday-management-tips/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/communication/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/communication/promoting-open-communication/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/business-strategy/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/marketing/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/sales/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/corporate-social-responsibility/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/artificial-intelligence/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/recruitment-hr/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/workplace-trends/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/customer-experience/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/organizational-culture/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/engineering/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/science/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/supply-chain-management/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/change-management/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/employee-experience/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/economics/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/consulting/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/writing/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/hospitality-tourism/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/networking/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/user-experience/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/design/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/real-estate/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/retail-merchandising/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/negotiation/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/future-of-work/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/fundraising/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/healthcare/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/top-content/event-planning/",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://about.linkedin.com/?trk=keyword-landing-homepage_footer-about",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/accessibility?trk=keyword-landing-homepage_footer-accessibility",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/user-agreement?trk=keyword-landing-homepage_footer-user-agreement",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/privacy-policy?trk=keyword-landing-homepage_footer-privacy-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/cookie-policy?trk=keyword-landing-homepage_footer-cookie-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/copyright-policy?trk=keyword-landing-homepage_footer-copyright-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://brand.linkedin.com/policies?trk=keyword-landing-homepage_footer-brand-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/psettings/guest-controls?trk=keyword-landing-homepage_footer-guest-controls",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/professional-community-policies?trk=keyword-landing-homepage_footer-community-guide",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/?trk=learning-serp_nav-header-logo",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "http://www.linkedin.com/learning/subscription/products?destRedirectURL=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fsearch%3Fkeywords%3D&trk=learning-serp_nav-header-join&upsellTrk=lil_upsell_nav_subscription",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning-login/?redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fsearch%3Fkeywords%3D%26trk%3Dorganization_guest_guest_nav_menu_learning&fromSignIn=true&trk=learning-serp_nav-header-signin",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://learning.linkedin.com/for-entire-companies?src=li-learning-nav",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://learning.linkedin.com/for-higher-education?src=li-learning-nav",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://learning.linkedin.com/for-governments?src=li-learning-nav",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/subscription/teams?veh=lil_upx&src=li-learning-nav",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ethical-hacking-scanning-networks-20213513/scanning-the-lan",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/learning-github-codespaces-for-enterprise/bring-codespaces-to-your-organization",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/managing-jira-projects-3-helpful-concepts-and-features/course-overview",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/managing-jira-projects-1-introduction/course-overview",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/claude-code-in-action-by-anthropic/introduction",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ai-trends/microsoft-copilot-s-researcher-agent-critique-and-council-features",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/docker-essential-training/diving-deeper-into-docker",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/managing-jira-projects-2-managing-boards/course-overview",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ai-trends/managing-the-agent-harness-with-claude-code-for-the-web",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/creating-a-streamed-ui",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/render-react-components",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/rendering-the-streamed-ui",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ethical-hacking-hacking-iot-devices-21053658/hacking-iot-and-ot-systems",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ethical-hacking-footprinting-and-reconnaissance-22773528/scouting-the-target",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/create-a-controlled-component-catalog",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/testing-the-dashboard",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ai-foundations-for-the-skilled-trades-getting-started-with-generative-ai-and-microsoft-copilot-by-microsoft-an/conclusion",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/ai-fluency-for-trades-educators-using-generative-ai-and-microsoft-copilot-in-apprenticeship-training-by-micros/conclusion",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/refreshing-breaking-and-trusting-queries",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/solution-data-cleaning-with-power-query",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/navigating-the-power-query-editor",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/power-query-next-steps",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/power-query-course-introduction",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/map-your-types-to-react-components",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/scaffold-an-initial-json-render-project",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/getting-data-from-csv-text",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/gather-and-clean-multiple-files-from-a-folder",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/creating-columns-with-conditional-logic",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/getting-data-from-another-excel-workbook",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/package-as-an-mcp-app",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/create-an-mcp-app-with-json-render/incorporating-the-ai-sdk",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/power-query-core-cleaning-patterns",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/rearranging-data-in-power-query",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/creating-columns-from-examples",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/data-cleaning-challenge",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/using-copilot-to-plan-power-query-transformations",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/getting-data-from-a-table",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/accessing-power-query-excel-mac-and-power-bi",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/automate-boring-excel-tasks-with-power-query/what-power-query-is-and-when-to-use-it",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/live-video-make-the-call-when-the-path-isn-t-clear-with-dorie-clark-apr-23-2026",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/live-video-make-the-call-when-the-path-isn-t-clear-with-dorie-clark-apr-23-2026/lead-through-uncertainty-with-applied-imagination",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/agentic-ai-design-patterns-for-genai-and-predictive-ai/introduction",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/tech-career-skills-effective-technical-communication/upgrade-your-technical-communication",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/leadership-live-with-dorie-clark-high-trust-leadership-in-a-high-change-world/develop-high-trust-leadership-in-a-high-change-world",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/leadership-live-with-dorie-clark-high-trust-leadership-in-a-high-change-world/psychological-safety-build-trust-and-lead-through-ai-change",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/data-quality-testing-with-great-expectations/next-steps",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/tackling-climate-risk-tools-scenarios-and-smart-decisions/what-transition-climate-risks-do-i-need-to-understand-to-make-good-decisions",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/tackling-climate-risk-tools-scenarios-and-smart-decisions/why-is-climate-risk-a-decision-problem",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/leadership-live-with-dorie-clark-high-trust-leadership-in-a-high-change-world",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/signup/cold-join?session_redirect=https%3A%2F%2Fwww%2Elinkedin%2Ecom%2Flearning%2Fsearch%3Fkeywords%3D&source=subs_learn_start&trk=learning-serp_see-all-results-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/business?trk=learning-serp_aside-topics",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/technology?trk=learning-serp_aside-topics",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/subscription/teams?veh=lil_upx&src=li-lil-upsell&trk=learning-serp_buy-for-your-team-cta",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/artificial-intelligence-for-business-29605417?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/business-analysis-and-strategy?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/business-software-and-tools?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/career-development-5?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/customer-service-3?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/diversity-equity-and-inclusion-dei?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/finance-and-accounting?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/human-resources-3?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/leadership-and-management?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/marketing-2?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/professional-development?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/project-management?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/sales-3?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/small-business-and-entrepreneurship?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/training-and-education?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/business?trk=learning-serp_browsemap_general-link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/aec?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/animation-and-illustration?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/audio-and-music?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/graphic-design?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/motion-graphics-and-vfx?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/photography-2?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/product-and-manufacturing?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/user-experience?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/2015-54?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/visualization-and-real-time?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/web-design?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/creative?trk=learning-serp_browsemap_general-link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/artificial-intelligence?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/cloud-computing-5?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/security-3?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/data-science?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/database-management?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/devops?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/hardware?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/it-help-desk-5?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/mobile-development?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/network-and-system-administration?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/software-development?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/web-development?trk=learning-serp_browsemap_link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/learning/topics/technology?trk=learning-serp_browsemap_general-link",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://about.linkedin.com/?trk=learning-serp_footer-about",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/accessibility?trk=learning-serp_footer-accessibility",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/user-agreement?trk=learning-serp_footer-user-agreement",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/privacy-policy?trk=learning-serp_footer-privacy-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/cookie-policy?trk=learning-serp_footer-cookie-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/copyright-policy?trk=learning-serp_footer-copyright-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://brand.linkedin.com/policies?trk=learning-serp_footer-brand-policy",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/psettings/guest-controls?trk=learning-serp_footer-guest-controls",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    },
+    {
+      "url": "https://www.linkedin.com/legal/professional-community-policies?trk=learning-serp_footer-community-guide",
+      "origin": "https://kb.voyce.cc/",
+      "depth": 3
+    }
+  ],
+  "log": [
+    {
+      "ts": 1776595536959,
+      "level": "info",
+      "msg": "crawl started origin=https://kb.voyce.cc/ k=3"
+    },
+    {
+      "ts": 1776595554337,
+      "level": "warn",
+      "msg": "fetch failed https://www.linkedin.com/pub/dir/+/+?trk=organization_guest_guest_nav_menu_people: http 999"
+    }
+  ]
+}
