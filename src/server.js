@@ -8,6 +8,7 @@
 //   GET  /crawls                    list crawls
 //   GET  /crawls/:id                one crawl (404 if missing)
 //   POST /crawls/:id/resume         resume interrupted crawl
+//   DELETE /crawls/:id              stop (if running) and remove the crawl record
 //   GET  /events                    SSE stream of bus events
 //   GET  /, /style.css, /app.js     static web UI
 
@@ -19,10 +20,10 @@ import { URL } from 'node:url';
 
 import { CONFIG } from './config.js';
 import { bus } from './event-bus.js';
-import { startCrawl, resumeCrawl, getRuntimeStats } from './crawler/crawler.js';
+import { startCrawl, resumeCrawl, stopCrawl, getRuntimeStats } from './crawler/crawler.js';
 import { listCrawls, loadCrawl, markInterruptedAtBoot } from './storage/crawl-store.js';
 import { search, searchTriples } from './search/search.js';
-import { loadVisited, flushVisited } from './storage/visited-store.js';
+import { loadVisited, flushVisited, forgetVisited, visitedSnapshot } from './storage/visited-store.js';
 
 // ---------- helpers ----------------------------------------------------------
 
@@ -216,6 +217,97 @@ async function routePostResume(id, res) {
   }
 }
 
+async function routeDeleteCrawl(id, res) {
+  try {
+    // Stop it first if it's running; stopCrawl is a no-op if not active.
+    try { stopCrawl(id); } catch { /* best-effort */ }
+    const p = path.join(CONFIG.CRAWLS_DIR, `${id}.data`);
+    if (!fs.existsSync(p)) { sendJson(res, 404, { error: 'crawl not found' }); return; }
+
+    // Read crawl first so we can purge data by this origin.
+    const record = await loadCrawl(id);
+    const originToPurge = record?.origin || null;
+
+    await fsp.unlink(p);
+    try { await fsp.unlink(p + '.tmp'); } catch { /* ignore */ }
+
+    let purge = { urlsRemoved: 0, linesRemoved: 0, filesTouched: 0 };
+    if (originToPurge) purge = await purgeByOrigin(originToPurge);
+
+    sendJson(res, 200, { ok: true, crawlerId: id, purged: originToPurge, ...purge });
+  } catch (e) {
+    sendJson(res, 500, { error: String(e?.message ?? e) });
+  }
+}
+
+/**
+ * Remove every letter-file line whose `origin` field matches the given origin,
+ * then strip the corresponding URLs from the visited set + visited_urls.data.
+ *
+ * Rationale: after a user deletes a crawl they almost always want to re-run
+ * the same origin from scratch. If we kept the visited Set populated, every
+ * child URL would be dedup-skipped; if we kept the letter lines, frequencies
+ * would double-count on the next run. One sweep fixes both.
+ */
+async function purgeByOrigin(origin) {
+  const removedUrls = new Set();
+  let linesRemoved = 0;
+  let filesTouched = 0;
+
+  if (!fs.existsSync(CONFIG.STORAGE_DIR)) {
+    return { urlsRemoved: 0, linesRemoved: 0, filesTouched: 0 };
+  }
+
+  const letters = (await fsp.readdir(CONFIG.STORAGE_DIR)).filter((n) => n.endsWith('.data'));
+  for (const name of letters) {
+    const letterPath = path.join(CONFIG.STORAGE_DIR, name);
+    const raw = await fsp.readFile(letterPath, 'utf8');
+    if (!raw) continue;
+    const lines = raw.split('\n');
+    const keep = [];
+    let removedHere = 0;
+    for (const line of lines) {
+      if (!line) continue;
+      const fields = line.split(' ');
+      if (fields.length !== 5) { keep.push(line); continue; }
+      const lineOrigin = fields[2];
+      if (lineOrigin === origin) {
+        removedUrls.add(fields[1]);
+        removedHere += 1;
+      } else {
+        keep.push(line);
+      }
+    }
+    if (removedHere > 0) {
+      const tmp = letterPath + '.tmp';
+      await fsp.writeFile(tmp, keep.length ? keep.join('\n') + '\n' : '');
+      await fsp.rename(tmp, letterPath);
+      linesRemoved += removedHere;
+      filesTouched += 1;
+    }
+  }
+
+  // Prune the visited set + disk log so the same crawl can be re-run clean.
+  if (removedUrls.size > 0) {
+    for (const u of removedUrls) forgetVisited(u);
+    await rewriteVisitedFile();
+  }
+  // Always forget the origin itself (it might not appear as a "url" in any row —
+  // e.g. a crawl that only fetched the origin still has the origin's own row).
+  forgetVisited(origin);
+
+  return { urlsRemoved: removedUrls.size, linesRemoved, filesTouched };
+}
+
+async function rewriteVisitedFile() {
+  // The forgetVisited() call only mutates the in-memory Set. We rewrite the
+  // on-disk log so a future boot reflects the current Set.
+  const current = visitedSnapshot();
+  const tmp = CONFIG.VISITED_FILE + '.tmp';
+  await fsp.writeFile(tmp, current.length ? current.join('\n') + '\n' : '');
+  await fsp.rename(tmp, CONFIG.VISITED_FILE);
+}
+
 // ---------- main request router ---------------------------------------------
 
 async function onRequest(req, res) {
@@ -233,7 +325,8 @@ async function onRequest(req, res) {
   if (method === 'GET'  && pathname === '/crawls')  return routeGetCrawls(res);
 
   const crawlMatch = pathname.match(/^\/crawls\/([A-Za-z0-9_\-]+)$/);
-  if (method === 'GET' && crawlMatch) return routeGetCrawl(crawlMatch[1], res);
+  if (method === 'GET'    && crawlMatch) return routeGetCrawl(crawlMatch[1], res);
+  if (method === 'DELETE' && crawlMatch) return routeDeleteCrawl(crawlMatch[1], res);
 
   const resumeMatch = pathname.match(/^\/crawls\/([A-Za-z0-9_\-]+)\/resume$/);
   if (method === 'POST' && resumeMatch) return routePostResume(resumeMatch[1], res);

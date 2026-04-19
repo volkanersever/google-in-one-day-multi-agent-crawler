@@ -57,6 +57,12 @@
     if (!r.ok) throw new Error(payload.error || `POST ${path} → ${r.status}`);
     return payload;
   }
+  async function jdel(path) {
+    const r = await fetch(path, { method: 'DELETE' });
+    const payload = await r.json().catch(() => ({}));
+    if (!r.ok) throw new Error(payload.error || `DELETE ${path} → ${r.status}`);
+    return payload;
+  }
 
   // ---------- hash router ----------------------------------------------------
   const ROUTES = ['deck', 'search', 'crawls'];
@@ -436,7 +442,7 @@
     try {
       const rows = await jget('/crawls');
       if (!Array.isArray(rows) || rows.length === 0) {
-        tbody.innerHTML = `<tr class="empty"><td colspan="7">no crawls yet</td></tr>`;
+        tbody.innerHTML = `<tr class="empty"><td colspan="8">no crawls yet</td></tr>`;
         return;
       }
       rows.sort((a, b) => (b.startedAt || 0) - (a.startedAt || 0));
@@ -457,13 +463,14 @@
             <td class="num">${esc(fmtNum(c.stats?.pagesCrawled ?? c.pagesCrawled ?? 0))}</td>
             <td>${esc(dateStr(c.startedAt))}</td>
             <td class="num">${esc(durationStr(c.startedAt, c.endedAt))}</td>
+            <td class="num"><button class="row-del" data-del="${esc(c.crawlerId)}" title="remove crawl record">×</button></td>
           </tr>
         `);
       }
       tbody.innerHTML = html.join('');
       bindCrawlRowClicks();
     } catch (e) {
-      tbody.innerHTML = `<tr class="empty"><td colspan="7">error: ${esc(e.message || e)}</td></tr>`;
+      tbody.innerHTML = `<tr class="empty"><td colspan="8">error: ${esc(e.message || e)}</td></tr>`;
     }
   }
 
@@ -471,6 +478,7 @@
     $$('#crawls-tbody tr.clickable').forEach((tr) => {
       tr.addEventListener('click', async (ev) => {
         if (ev.target && ev.target.matches('[data-resume]')) return; // handled below
+        if (ev.target && ev.target.matches('[data-del]'))    return;
         const id = tr.dataset.id;
         await toggleCrawlLog(id, tr);
       });
@@ -486,6 +494,23 @@
           setTimeout(refreshCrawls, 400);
         } catch (e) {
           a.textContent = 'failed';
+        }
+      });
+    });
+    $$('#crawls-tbody [data-del]').forEach((b) => {
+      b.addEventListener('click', async (ev) => {
+        ev.stopPropagation();
+        const id = b.dataset.del;
+        if (!confirm(`Remove crawl ${id}?\nThis deletes the record only; indexed words in data/storage/* stay.`)) return;
+        b.textContent = '…';
+        b.disabled = true;
+        try {
+          await jdel(`/crawls/${encodeURIComponent(id)}`);
+          const tr = b.closest('tr');
+          if (tr) tr.remove();
+        } catch (e) {
+          b.textContent = 'fail';
+          b.title = e.message || String(e);
         }
       });
     });
@@ -522,7 +547,7 @@
     const logRow = document.createElement('tr');
     logRow.className = 'log-row';
     logRow.dataset.parent = id;
-    logRow.innerHTML = `<td colspan="7"><div class="log-box">${logHtml}</div></td>`;
+    logRow.innerHTML = `<td colspan="8"><div class="log-box">${logHtml}</div></td>`;
     tr.insertAdjacentElement('afterend', logRow);
     state.expandedCrawl = id;
   }

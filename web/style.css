@@ -549,6 +549,23 @@ a:hover { color: #aef8ff; }
 }
 .resume-link:hover { color: #aef8ff; }
 
+.row-del {
+  background: transparent;
+  border: 1px solid rgba(255, 0, 170, 0.35);
+  color: var(--magenta);
+  width: 26px; height: 26px; border-radius: 6px;
+  font-family: var(--font-mono); font-size: 14px; font-weight: 600; line-height: 1;
+  cursor: pointer;
+  transition: all 160ms cubic-bezier(.2,.7,.2,1);
+}
+.row-del:hover {
+  background: rgba(255, 0, 170, 0.14);
+  border-color: var(--magenta);
+  box-shadow: 0 0 12px rgba(255, 0, 170, 0.35);
+  color: #fff;
+}
+.row-del:disabled { opacity: 0.4; cursor: wait; }
+
 /* ---------- responsive cutoffs (only for narrow) -------------------- */
 @media (max-width: 1200px) {
   .deck-grid { grid-template-columns: 1fr; }

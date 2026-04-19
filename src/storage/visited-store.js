@@ -47,6 +47,18 @@ export function markVisited(url) {
   appendLineSync(CONFIG.VISITED_FILE, url);
 }
 
+/**
+ * Remove a URL from the in-memory visited Set so it may be re-fetched.
+ * The on-disk log still carries the earlier entry — this only affects
+ * the current process's dedup decisions. Typical use: a user launches
+ * /index on an origin they have crawled before; the origin should be
+ * re-fetched even though it's already in visited_urls.data.
+ */
+export function forgetVisited(url) {
+  if (!url) return false;
+  return visited.delete(url);
+}
+
 /** Force a disk flush — appendLineSync is already sync, but we fsync for safety. */
 export function flushVisited() {
   try {
@@ -60,6 +72,11 @@ export function flushVisited() {
 
 export function visitedCount() {
   return visited.size;
+}
+
+/** Snapshot of the current in-memory visited set, as an array. */
+export function visitedSnapshot() {
+  return Array.from(visited);
 }
 
 export function isLoaded() {

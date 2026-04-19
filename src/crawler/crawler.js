@@ -28,7 +28,7 @@ import { CONFIG } from '../config.js';
 import { bus } from '../event-bus.js';
 import { normalizeUrl, hostOf } from '../util/url.js';
 import { appendWord } from '../storage/letter-store.js';
-import { hasVisited, markVisited } from '../storage/visited-store.js';
+import { hasVisited, markVisited, forgetVisited } from '../storage/visited-store.js';
 import {
   createCrawl,
   saveCrawlState,
@@ -333,6 +333,9 @@ export async function startCrawl({ origin, k, opts }) {
   const resolved = resolveOpts(opts);
   const { crawlerId } = createCrawl({ origin: normalizedOrigin, k, opts: resolved });
   const rt = buildRuntime(crawlerId, normalizedOrigin, k, resolved);
+  // User explicitly asked to crawl this origin — re-fetch it even if we
+  // already visited it in a prior run. Children still dedup normally.
+  forgetVisited(normalizedOrigin);
   rt.frontier.enqueue({ url: normalizedOrigin, origin: normalizedOrigin, depth: 0 });
   rt.stats.urlsSeen = 1;
   runtime.set(crawlerId, rt);

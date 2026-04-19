@@ -1,0 +1,380 @@
+{
+  "crawlerId": "1776599105075_4",
+  "origin": "https://tr.wikipedia.org/wiki/Galatasaray_(futbol_tak%C4%B1m%C4%B1)",
+  "k": 1,
+  "opts": {
+    "maxConcurrency": 5,
+    "rateLimit": 10,
+    "maxQueue": 1000,
+    "maxPages": 2501,
+    "userAgent": "MultiAgentCrawler/1.0 (+https://github.com/volkanersever)"
+  },
+  "status": "finished",
+  "startedAt": 1776599105076,
+  "endedAt": 1776599817365,
+  "stats": {
+    "pagesCrawled": 1983,
+    "urlsSeen": 2054,
+    "errors": 69,
+    "wordsIndexed": 1545110,
+    "lastUrl": "https://www.mediawiki.org/"
+  },
+  "frontier": [],
+  "log": [
+    {
+      "ts": 1776599105077,
+      "level": "info",
+      "msg": "crawl started origin=https://tr.wikipedia.org/wiki/Galatasaray_(futbol_tak%C4%B1m%C4%B1) k=1"
+    },
+    {
+      "ts": 1776599111049,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/w/index.php?title=%C3%96zel:HesapOlu%C5%9Ftur&returnto=Galatasaray+%28futbol+tak%C4%B1m%C4%B1%29: too many redirects (> 3)"
+    },
+    {
+      "ts": 1776599137097,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599163232,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/Asya: timeout after 10000ms"
+    },
+    {
+      "ts": 1776599365685,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/1949_T%C3%BCrkiye_Futbol_%C5%9Eampiyonas%C4%B1: getaddrinfo ENOTFOUND tr.wikipedia.org"
+    },
+    {
+      "ts": 1776599373186,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/T%C3%BCrkiye_Amat%C3%B6r_Futbol_%C5%9Eampiyonas%C4%B1: getaddrinfo ENOTFOUND tr.wikipedia.org"
+    },
+    {
+      "ts": 1776599391546,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/Bill_Baggett: getaddrinfo ENOTFOUND tr.wikipedia.org"
+    },
+    {
+      "ts": 1776599394107,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/pl/galatasaray-sportif-as-yonetim-kurulu/16: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599409419,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/%C5%9Eevki_%C5%9Eenlen: timeout after 10000ms"
+    },
+    {
+      "ts": 1776599443055,
+      "level": "warn",
+      "msg": "fetch failed http://www.ntvspor.net/haber/futbol/77176/kupa-beyi-zorlanmadi: http 404"
+    },
+    {
+      "ts": 1776599443133,
+      "level": "warn",
+      "msg": "fetch failed http://www.ntvspor.net/foto-galeri/kupa-beyi-boyle-oldular: http 404"
+    },
+    {
+      "ts": 1776599461753,
+      "level": "warn",
+      "msg": "fetch failed https://editorial.uefa.com/resources/0272-145b03c04a9e-26dc16d0c545-1000/master_bm_high_res_20220203104923.pdf: non-html content-type: application/pdf"
+    },
+    {
+      "ts": 1776599467177,
+      "level": "warn",
+      "msg": "fetch failed https://editorial.uefa.com/resources/0282-18407aecf6fe-cb82de053b1e-1000/ucl_202223_all-time_md13.pdf: non-html content-type: application/pdf"
+    },
+    {
+      "ts": 1776599470508,
+      "level": "warn",
+      "msg": "fetch failed https://www.forbes.com/sites/mikeozanian/2015/05/06/real-madrid-tops-ranking-of-the-worlds-most-valuable-soccer-teams/: http 403"
+    },
+    {
+      "ts": 1776599470513,
+      "level": "warn",
+      "msg": "fetch failed https://www.forbes.com/sites/mikeozanian/2014/05/07/the-worlds-most-valuable-soccer-teams-3/: http 403"
+    },
+    {
+      "ts": 1776599474721,
+      "level": "warn",
+      "msg": "fetch failed http://gayin-sin.net/2009/01/02/ilk-nefes-ii/: getaddrinfo ENOTFOUND gayin-sin.net"
+    },
+    {
+      "ts": 1776599477025,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/s/galatasaray-nasil-kuruldu/13: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599477225,
+      "level": "warn",
+      "msg": "fetch failed http://www.cimbom.org/general/founded.html: http 404"
+    },
+    {
+      "ts": 1776599480331,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/detay.asp?PID=1094&HID=1&haberID=296575: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599480351,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/English/Corporate/history/detail.asp?pid=2422&haberid=289785: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599489196,
+      "level": "warn",
+      "msg": "fetch failed http://www2.webaslan.com/futbol/ve-hagi-g-sarayda-31-temmuz-1996SXHBQ60615SXQ: getaddrinfo ENOTFOUND www2.webaslan.com"
+    },
+    {
+      "ts": 1776599489319,
+      "level": "warn",
+      "msg": "fetch failed http://www.haberform.com/haber/hasan-sas-fenerbahceye-cok-yaklasmisti-27694.htm: read ECONNRESET"
+    },
+    {
+      "ts": 1776599495734,
+      "level": "warn",
+      "msg": "fetch failed http://www.milliyet.com.tr/spor/axspo03.html: http 404"
+    },
+    {
+      "ts": 1776599505739,
+      "level": "warn",
+      "msg": "fetch failed http://arsiv.ntvmsnbc.com/news/326867.asp: timeout after 10000ms"
+    },
+    {
+      "ts": 1776599513928,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/1386.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599513929,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/1769.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599516741,
+      "level": "warn",
+      "msg": "fetch failed http://www.goal.com/tr/news/206/genel/2009/02/23/1123095/skibbeyle-yollar-ayr%C4%B1ld%C4%B1: http 404"
+    },
+    {
+      "ts": 1776599516779,
+      "level": "warn",
+      "msg": "fetch failed http://www.goal.com/tr/news/206/genel/2009/02/23/1123292/galatasarayda-b%C3%BClent-korkmaz-d%C3%B6nemi: http 404"
+    },
+    {
+      "ts": 1776599520169,
+      "level": "warn",
+      "msg": "fetch failed http://www.zaman.com.tr/spor_galatasarayda-bulent-korkmaz-donemi-sona-erdi_854831.html: getaddrinfo ENOTFOUND www.zaman.com.tr"
+    },
+    {
+      "ts": 1776599520255,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/4644.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599524259,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/4196.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599524260,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/4419.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599526663,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/7693.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599526664,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/4288.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599529348,
+      "level": "warn",
+      "msg": "fetch failed http://www.habervitrini.com/haber/hagi-misimovicin-neden-kadro-disi-birakildigini-acikladi-496992/: http 404"
+    },
+    {
+      "ts": 1776599532852,
+      "level": "warn",
+      "msg": "fetch failed http://www.fanatik.com.tr/default.aspx?atype=GaleriDetay&ArticleID=208877&KategoriID=32&Page=1: http 404"
+    },
+    {
+      "ts": 1776599542507,
+      "level": "warn",
+      "msg": "fetch failed http://www.ntvmsnbc.com/id/25167753/: timeout after 10000ms"
+    },
+    {
+      "ts": 1776599545209,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/9647.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599548143,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/13949.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599548144,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/13987.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599548387,
+      "level": "warn",
+      "msg": "fetch failed http://www.goal.com/tr/news/2556/editoryal/2011/11/09/2748538/goalcom-%C3%B6zel-galatasaray%C4%B1n-transfer-karnesi: http 404"
+    },
+    {
+      "ts": 1776599552206,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/14139.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599553511,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/sampiyonlarligi/haber/15292.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599555943,
+      "level": "warn",
+      "msg": "fetch failed http://www2.galatasaray.org/futbol/turkiyekupasi/haber/15380.php: getaddrinfo ENOTFOUND www2.galatasaray.org"
+    },
+    {
+      "ts": 1776599555949,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/superlig/haber/15520.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599555951,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/kulup/haber/15816.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599558228,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/kulup/haber/15889.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599558632,
+      "level": "warn",
+      "msg": "fetch failed http://www.mackolik.com/Haber/147932/Macin-Adami-Sneijder: http 404"
+    },
+    {
+      "ts": 1776599566602,
+      "level": "warn",
+      "msg": "fetch failed http://www2.galatasaray.org/futbol/superlig/haber/16889.php: getaddrinfo ENOTFOUND www2.galatasaray.org"
+    },
+    {
+      "ts": 1776599575547,
+      "level": "warn",
+      "msg": "fetch failed http://www2.galatasaray.org/futbol/sampiyonlarligi/haber/18710.php: getaddrinfo ENOTFOUND www2.galatasaray.org"
+    },
+    {
+      "ts": 1776599575717,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/futbol/futbol_as/haber/20420.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599578897,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/haber/futbol/galatasaray-a-hos-geldin-domenec-torrent/50190: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599579326,
+      "level": "warn",
+      "msg": "fetch failed http://www.ntvspor.net/haber/futbol/108607/mancini-donemi-sona-erdi: http 404"
+    },
+    {
+      "ts": 1776599589930,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/haber/gs-sportif-a-s/teknik-direktor-okan-buruk-ile-sozlesme-imzalanmasi-hakkinda/55639: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599594392,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/tarih/pages/asy_tarihi.php: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599600363,
+      "level": "warn",
+      "msg": "fetch failed http://skorer.milliyet.com.tr/g-saray-besiktas-rekabetinden-ilginc-notlar/-/detay/1660644/default.htm: http 503"
+    },
+    {
+      "ts": 1776599605787,
+      "level": "warn",
+      "msg": "fetch failed http://www.uefa.com/footballeurope/club=50067/domestic.html: http 404"
+    },
+    {
+      "ts": 1776599637702,
+      "level": "warn",
+      "msg": "fetch failed http://skorer.milliyet.com.tr/super-lig-in-rekorlari-/-/detay/1581940/default.htm: http 503"
+    },
+    {
+      "ts": 1776599637739,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/haber/futbol/gol-krali-mbaye-diagne/44235: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599643024,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/haber/gs-sportif-a-s/victor-osimhen-galatasarayda/58214: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599643026,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/haber/gs-sportif-a-s/wilfried-stephane-singo-galatasarayda/58361: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599645627,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/haber/futbol/ugurcan-cakir-galatasarayda/58393: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599655120,
+      "level": "warn",
+      "msg": "fetch failed https://www.kap.org.tr/Bildirim/1243143: socket hang up"
+    },
+    {
+      "ts": 1776599655152,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/haber/gs-sportif-a-s/younes-belhanda-galatasarayda/35945: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599662272,
+      "level": "warn",
+      "msg": "fetch failed https://web.archive.org/web/20021229000644/https:/www.galatasaray.org/anasayfa: http 404"
+    },
+    {
+      "ts": 1776599662440,
+      "level": "warn",
+      "msg": "fetch failed https://www.galatasaray.org/anasayfa: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599662615,
+      "level": "warn",
+      "msg": "fetch failed http://www.galatasaray.org/haber/gs-sportif-a-s/ozel-durum-aciklamalari/burak-yilmaz-beijing-guoana-transfer-oldu/31880: unable to verify the first certificate; if the root CA is installed locally, try running Node.js with --use-system-ca"
+    },
+    {
+      "ts": 1776599713773,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/1981_Federasyon_Kupas%C4%B1_finali: getaddrinfo ENOTFOUND tr.wikipedia.org"
+    },
+    {
+      "ts": 1776599723777,
+      "level": "warn",
+      "msg": "fetch failed https://tr.wikipedia.org/wiki/1984_Federasyon_Kupas%C4%B1_finali: timeout after 10000ms"
+    },
+    {
+      "ts": 1776599814816,
+      "level": "warn",
+      "msg": "fetch failed https://foundation.wikimedia.org/wiki/Special:MyLanguage/Legal:Wikimedia_Foundation_Legal_and_Safety_Contact_Information: timeout after 10000ms"
+    },
+    {
+      "ts": 1776599817365,
+      "level": "info",
+      "msg": "crawl finished pages=1983 errors=69"
+    }
+  ]
+}
